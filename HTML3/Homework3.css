@@ -1,0 +1,57 @@
+
+
+*{
+  margin:0;
+  padding: 0;
+
+}
+
+html{
+	background-color:  #f9f9f9;
+
+}
+
+body{
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-left : 11%;
+  margin-right: 11%;
+  background-color:#ffffff; 
+}
+
+.logo{
+	margin-top: 50px;
+	height: 40px;
+	width: 145px;
+}
+
+.topmenu{
+	margin: 0;
+  padding: 0;
+  margin-top: 50px;
+  height: 40px;
+  line-height: 40px;
+  background: #525151;
+}
+
+.topmenu a{
+	text-decoration: none;
+	color: white;
+  font-size: 15px;
+  font-style: Opensize, Arial;
+
+}
+
+.topmenu li { 
+  display: inline;
+  float: left;
+  margin-right: 50px;
+  margin-left: 30px; 
+
+  
+   }
+
+
+
+
+
