@@ -1,0 +1,87 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 960px;
+	height: 883px;
+	background-repeat: no-repeat;
+}
+
+.linecontainer{
+	margin-left: 55px;
+	position: relative;
+	overflow: hidden;
+}
+
+.logo{
+	margin-top: 10px;
+	margin-left: 15px;
+	float: left;
+}
+
+.contacts{
+	margin-top: 100px;
+	margin-left: 450px;
+	float: left;
+}
+
+.picture{
+	margin-top: 0px;
+	margin-left: 15px;
+	float: left;
+	width: 261px;
+	height: 178px;
+	border: 2px solid black;
+	border-color: #e6e6e6;
+}
+
+h1{
+	float:left;
+	font-family: tahoma;
+	font-size: 15px;
+	color: #e6e6e6;
+	font-weight: 400;
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 50px;
+}
+
+.india{
+	margin-left: 120px;
+}
+
+.nepal{
+	margin-left: 240px;
+}
+
+.tibet{
+	margin-left: 250px;
+}
+
+.bhutan{
+	margin-left: 120px;
+}
+
+.srilanka{
+	margin-left: 220px;
+}
+
+.maldives{
+	margin-left: 230px;
+}
+
+
+.footer{
+	margin-top: 130px;
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: 400;
+	text-align: left;
+	text-align: center;
+	padding-bottom: 30px;
+	color: #e6e6e6;
+
+}
