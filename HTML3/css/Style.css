@@ -1,57 +1,84 @@
 
-
 *{
-  margin:0;
-  padding: 0;
-
+	margin: 0;
+	padding: 0;
 }
 
-html{
-	background-color:  #f9f9f9;
-
-}
-
-body{
+.wrapper{
+	width: 800px;
+	margin:0 auto;
 	padding-left: 50px;
 	padding-right: 50px;
-	margin-left : 11%;
-  margin-right: 11%;
-  background-color:#ffffff; 
+	padding-top: 50px;
+
 }
 
-.logo{
-	margin-top: 50px;
-	height: 40px;
-	width: 145px;
+.menu-top{
+width: 100%;
+height: 40px;
+margin-top: 40px;
+margin-bottom: 40px;
+padding-top: 15px;
+list-style-type: none;
+background-color: grey;
 }
 
-.topmenu{
-	margin: 0;
-  padding: 0;
-  margin-top: 50px;
-  height: 40px;
-  line-height: 40px;
-  background: #525151;
-}
+.menu-top li{
+display: inline-block;
+} 
 
-.topmenu a{
-	text-decoration: none;
-	color: white;
+.menu-top a {
+  color: #ffffff;
+  padding: 5px;
+  text-decoration: none;
+  font-weight: bold;
   font-size: 15px;
-  font-style: Opensize, Arial;
+  font-family: 'Myriad Pro';
+  width: 120px;
+ }
 
+.content{
+	position: relative;
+	overflow: hidden;
 }
 
-.topmenu li { 
-  display: inline;
-  float: left;
-  margin-right: 50px;
-  margin-left: 30px; 
+.left-side-menu{
+	width: 200px;
+	float: left;
+}
 
-  
-   }
+.right-side{
+	width: 550px;
+	float: right;
+}
 
+.bycicle{
+	border: 1px solid black;
+	margin-bottom: 40px;
+	width: 545px;
+}
 
+.menu-bottom{
+width: 100%;
+height: 40px;
+margin-top: 60px;
+margin-bottom: 60px;
+text-align: center;
+padding-top: 15px;
+list-style-type: none;
+background-color: rgb(249 249 249);
+} 
 
+.menu-bottom li{
+display: inline-block;
+} 
 
-
+.menu-bottom a {
+  color: black;
+  padding: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: 'Myriad Pro';
+  width: 120px;
+ }
