@@ -35,7 +35,7 @@ display: inline-block;
  }
 
  .menu-top a:hover{
- 	background-color: black;
+ 	background-color: rgb(80, 80, 80);
 }
 
 .content{
@@ -57,7 +57,7 @@ display: inline-block;
   font-size: 15px;
   font-family: 'Myriad Pro';
   display: block;
-  border: 1px solid black;
+  border: 1px solid #c8c8c8;
  }
 
  .left-side-menu a:hover{
@@ -70,7 +70,7 @@ display: inline-block;
 }
 
 .bycicle{
-	border: 1px solid black;
+	border: 1px solid #c8c8c8;
 	margin-bottom: 40px;
 	width: 545px;
 
@@ -81,7 +81,7 @@ width: 100%;
 margin-top: 40px;
 margin-bottom: 40px;
 list-style-type: none;
-background-color: rgb(225, 225, 225);
+background-color: #c8c8c8;
 } 
 
 .menu-bottom li{
