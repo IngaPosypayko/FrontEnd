@@ -57,9 +57,12 @@ display: inline-block;
   font-size: 15px;
   font-family: 'Myriad Pro';
   display: block;
-  border: 1px solid #c8c8c8;
+  border: 1px #c8c8c8;
+  border-style: solid solid none solid;
  }
-
+. avto {
+  border-bottom: 1px solid #c8c8c8;
+}
  .left-side-menu a:hover{
  	padding-left: 50px;
 }
@@ -72,8 +75,12 @@ display: inline-block;
 .bycicle{
 	border: 1px solid #c8c8c8;
 	margin-bottom: 40px;
-	width: 545px;
+  padding: 50px;
+  width: 440px;
+}
 
+.Lorem{
+  padding-left: 20px;
 }
 
 .menu-bottom{
@@ -101,3 +108,7 @@ display: inline-block;
  .menu-bottom a:hover{
  	text-decoration: underline;
 }
+
+.menu-bottom li:last-child{
+  margin-left: 100px;
+  }

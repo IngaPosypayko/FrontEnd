@@ -1,0 +1,313 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"border-",
+				"border-bottom"
+			],
+			[
+				"border-s",
+				"border-style"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"te",
+				"text-align-last"
+			],
+			[
+				"ma",
+				"margin-right"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"pa",
+				"padding-right"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"rg",
+				"rgb"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"h",
+				"hspace\tAttr"
+			],
+			[
+				"bl",
+				"black"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"i",
+				"inline-block"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"fo",
+				"font-style"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"c",
+				"class\tAttr"
+			],
+			[
+				"l",
+				"LOGO"
+			],
+			[
+				"lo",
+				"logo"
+			],
+			[
+				"ba",
+				"background-size"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"s",
+				"srilanka"
+			],
+			[
+				"t",
+				"tibet"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"I",
+				"INDIA"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"m",
+				"margin-top"
+			],
+			[
+				"co",
+				"color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/ingusha/projects/FrontEnd/HTML3/css/style.css",
+		"/Users/ingusha/projects/FrontEnd/HTML3/index.html",
+		"/Users/ingusha/projects/FrontEnd/HTML3/css/Style.css",
+		"/Users/ingusha/projects/FrontEnd/HTML1/index.html",
+		"/Users/ingusha/projects/FrontEnd/HTML3bonus/css/style.css",
+		"/Users/ingusha/projects/FrontEnd/HTML3bonus/index.html",
+		"/Users/ingusha/Documents/HTML/GitHub/FrontEnd/HTML1/style.css",
+		"/Users/ingusha/Documents/HTML/GitHub/FrontEnd/HTML1/Homework1.html",
+		"/Users/ingusha/Documents/HTML/GitHub/FrontEnd/README.md",
+		"/Users/ingusha/Library/Application Support/GitHub for Mac/tutorial/README.md",
+		"/Users/ingusha/Documents/HTML/Homework3/Homework3.html",
+		"/Users/ingusha/Documents/HTML/Homework3/Homework3.css",
+		"/Users/ingusha/Documents/HTML/Homework1/Homework1.html"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
