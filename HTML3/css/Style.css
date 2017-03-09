@@ -13,22 +13,22 @@
 }
 
 .menu-top{
-width: 100%;
-margin-top: 40px;
-margin-bottom: 40px;
-list-style-type: none;
-background-color: grey;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  list-style-type: none;
+  background-color: grey;
 }
 
 .menu-top li{
-display: inline-block;
+  display: inline-block;
 } 
 
 .menu-top a {
   color: #ffffff;
   padding: 10px 35px;
   text-decoration: none;
-  font-weight: thin;
+  font-weight: normal;
   font-size: 15px;
   font-family: 'Myriad Pro';
   display: block;
@@ -53,17 +53,19 @@ display: inline-block;
   color: black;
   padding: 10px 35px;
   text-decoration: none;
-  font-weight: thin;
+  font-weight: normal;
   font-size: 15px;
   font-family: 'Myriad Pro';
   display: block;
   border: 1px #c8c8c8;
   border-style: solid solid none solid;
  }
+
 . avto {
   border-bottom: 1px solid #c8c8c8;
 }
- .left-side-menu a:hover{
+
+.left-side-menu a:hover{
  	padding-left: 50px;
 }
 
@@ -84,22 +86,22 @@ display: inline-block;
 }
 
 .menu-bottom{
-width: 100%;
-margin-top: 40px;
-margin-bottom: 40px;
-list-style-type: none;
-background-color: #c8c8c8;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  list-style-type: none;
+  background-color: #c8c8c8;
 } 
 
 .menu-bottom li{
-display: inline-block;
+  display: inline-block;
 } 
 
 .menu-bottom a {
   color: black;
   padding: 10px 35px;
   text-decoration: none;
-  font-weight: thin;
+  font-weight: normal;
   font-size: 15px;
   font-family: 'Myriad Pro';
   display: block;
@@ -111,4 +113,4 @@ display: inline-block;
 
 .menu-bottom li:last-child{
   margin-left: 100px;
-  }
+}

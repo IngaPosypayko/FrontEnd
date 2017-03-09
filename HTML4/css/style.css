@@ -5,13 +5,12 @@
 }
 
 .wrapper{
-	width: 880px;
+	width: 1000px;
 	margin:0 auto;
 }
 
 header{
 height: 170px; 
-padding-left: 25px;
 padding-right: 30px;
 position: relative;
 overflow: hidden;
@@ -51,7 +50,7 @@ overflow: hidden;
 .menu-header a{
   color: rgb(95, 165, 187);
   padding-left: 15px;
-  font-weight: thin;
+  font-weight: normal;
   font-size: 10px;
   font-family: Tahoma;
   text-align: center;
@@ -59,7 +58,7 @@ overflow: hidden;
 }
 
 .header-bottom-picture{
-  width: 880px;
+  width: 1000px;
   height: 235px;
   border-bottom: 1px solid rgb(18, 138, 167); 
 }
@@ -81,12 +80,11 @@ overflow: hidden;
   list-style-type: none;
 }
 .main-menu {
-  height: 30px;
+  height: 50px;
   background-color: rgb(54,54,54);
-  padding: 8px 25px;
   min-width: 470px;
   border-bottom: 1px solid rgb(44, 44, 44); 
-  font-weight: thin;
+  font-weight: normal;
   font-size: 14px;
   font-family: Tahoma;
 }
@@ -97,7 +95,8 @@ overflow: hidden;
 }
 .main-menu li a {
   display: block;
-  padding: 8px 25px;
+  padding-top: 15px;
+  width: 140px;
   color: #ffffff;
   text-decoration: none;
   text-align: center;
@@ -121,18 +120,18 @@ overflow: hidden;
 
 .left-side-main-block-container{
   float: left;
-  width: 210px;
+  width: 230px;
   border-right: 1px solid rgb(199,202,207);
 }
 
 .central-side-main-block-container{
   float: left;
-  width: 450px;
+  width: 500px;
 }
 
 .right-side-main-block-container{
   float: right;
-  width: 210px;
+  width: 230px;
   border-left: 1px solid rgb(199,202,207);
 }
 
@@ -146,7 +145,7 @@ overflow: hidden;
 
 .left-side-main-block-container p,
 .right-side-main-block-container p{
-  font-weight: thin;
+  font-weight: normal;
   font-size: 14px;
   font-family: Tahoma;
   color: rgb(66,76,67);
@@ -154,7 +153,7 @@ overflow: hidden;
 
 .left-side-main-block-container h1,
 .right-side-main-block-container h1{
-  font-weight: thin;
+  font-weight: normal;
   font-size: 18px;
   font-family: Tahoma;
   color: rgb(66,76,67);
