@@ -13,6 +13,7 @@ body{
   margin:0 auto;
   font-weight: normal;
   font-family: Tahoma;
+  margin-top: 10px;
 }
 
 header{
@@ -121,25 +122,31 @@ background-color: #ffffff;
   position: relative;
   overflow: hidden;
   display: block;
-  height: 500px;
+  height: 320px;
 }
 
 .left-side-main-block-container{
   float: left;
   width: 200px;
   border-right: 1px solid rgb(199,202,207);
+  min-height: 300px;
+  border-bottom: 1px solid rgb(44, 44, 44); 
 }
 
 .central-side-main-block-container{
   float: left;
-  width: 500px;
+  width: 468px;
   background-color: #ffffff;
+  min-height: 300px;
+  border-bottom: 1px solid rgb(44, 44, 44); 
 }
 
 .right-side-main-block-container{
   float: right;
   width: 200px;
   border-left: 1px solid rgb(199,202,207);
+  min-height: 300px;
+  border-bottom: 1px solid rgb(44, 44, 44); 
 }
 
 .left-side-main-block-container,
@@ -163,4 +170,10 @@ background-color: #ffffff;
   padding-top: 10px;
   padding-bottom: 5px;
   text-align: center; 
+}
+
+.footer{
+  color: #ffffff;
+  text-align: center;
+  font-size: 10px;
 }
