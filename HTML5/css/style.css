@@ -1,22 +1,28 @@
 
-*{
-	margin: 0;
-	padding: 0;
+@font-face {
+  font-family: Tahoma; 
+  src: url(fonts/Tahoma.ttf); 
 }
 
-.wrapper{
+*{
+	padding: 0;
+
+
+}
+
+.wrapper1{
    width: 1210px;
   height: 1025px;
-  margin:0 auto;
   background:url('../img/background.png');
   background-repeat: no-repeat;
   border: 1px solid black;
-  position: relative;
 }
 
 .menu-header{
+margin: 0;  
 background-color: rgb(7,82,145);
 height: 30px;
+text-align:right;
 }
 
 .menu-header li{
@@ -24,26 +30,35 @@ height: 30px;
 }
 
 .menu-header a{
-  color: rgb(83,164,221);
-  padding: 10px 35px;
-  font-size: 10px;
-  text-align: center;
   display: block;
+  color: rgb(83,164,221);
+  padding: 5px 35px;
+  font-size: 10px;
   text-decoration: none;
   text-align: right;
+  font-family: 'Tahoma', 'Arial';
+  font-weight: normal;
+  font-size: 14px;
 }
 
 .menu-header a:hover{
   color:#ffffff;
 }
 
+.main-screen-wrapper{
+  position:relative;
+}
+
 .main-screen{
   z-index: 1;
-  margin:0 auto;
   width: 500px;
   height: 500px;
-  background-color: black;
-  display: table-cell;
-  vertical-align: middle;
-  
+  background: black;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 30%;
+  width: 50%;
+  margin: 15% 0 0 -25%;
 }
