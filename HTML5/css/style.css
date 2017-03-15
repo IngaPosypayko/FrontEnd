@@ -47,10 +47,12 @@ text-align:right;
 
 .main-screen-wrapper{
   position:relative;
+  display: block;
 }
 
 .main-screen{
   z-index: 1;
+  text-align: center;
   width: 500px;
   height: 500px;
   background: black;
