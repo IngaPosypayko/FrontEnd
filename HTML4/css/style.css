@@ -1,3 +1,7 @@
+@font-face {
+  font-family: Tahoma; 
+  src: url(fonts/Tahoma.ttf); 
+}
 
 *{
 	margin: 0;
@@ -12,15 +16,15 @@ body{
   width: 950px;
   margin:0 auto;
   font-weight: normal;
-  font-family: Tahoma;
-  margin-top: 10px;
+  font-family: 'Tahoma', 'Arial';
+  margin-top: 42px;
 }
 
 header{
-height: 200px; 
-position: relative;
-overflow: hidden;
-background-color: #ffffff;
+  height: 170px; 
+  position: relative;
+  overflow: hidden;
+  background-color: #ffffff;
 }
 
 .header-left-side{
@@ -96,11 +100,12 @@ background-color: #ffffff;
 .main-menu li {
   display: inline-block;
   position: relative;
+  height: 28px;
 }
 
 .main-menu li a {
   display: block;
-  padding:15px 0px;
+  padding:5px 0px;
   width: 130px;
   color: #ffffff;
   text-decoration: none;
@@ -108,6 +113,13 @@ background-color: #ffffff;
 }
 .main-menu ul li {
   float: none; 
+}
+
+.dropdown>a:after {
+   content: "\25BC"; 
+   color: #ffffff;
+   padding-left: 3px;
+   font-size: .6em;
 }
 
 .main-menu li:hover {
