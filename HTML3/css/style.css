@@ -1,0 +1,122 @@
+
+@font-face {
+    font-family: Myriad Pro; 
+    src: url(fonts/Myriad Pro-Lights.otf); 
+   }
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+	width: 800px;
+	margin:0 auto;
+	padding: 50px 50px 0 50px;
+}
+
+.menu-top{
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  list-style-type: none;
+  background-color: grey;
+}
+
+.menu-top li{
+  display: inline-block;
+} 
+
+.menu-top a {
+  color: #ffffff;
+  padding: 10px 35px;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 15px;
+  font-family: 'Myriad Pro', 'Arial';
+  display: block;
+ }
+
+ .menu-top a:hover{
+ 	background-color: rgb(80, 80, 80);
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  padding: 10px 34px;
+}
+
+.content{
+	position: relative;
+	overflow: hidden;
+}
+
+.left-side-menu{
+	width: 200px;
+	float: left;
+	list-style-type: none;
+}
+
+.left-side-menu a {
+  color: black;
+  padding: 10px 35px;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 15px;
+  font-family: 'Myriad Pro', 'Arial' ;
+  display: block;
+  border: 1px #c8c8c8;
+  border-style: solid solid none solid;
+ }
+
+.avto {
+  border-bottom: 1px solid #c8c8c8;
+}
+
+.left-side-menu a:hover{
+ 	padding-left: 50px;
+}
+
+.right-side{
+	width: 550px;
+	float: right;
+}
+
+.bycicle{
+	border: 1px solid #c8c8c8;
+	margin-bottom: 40px;
+  padding: 50px;
+  width: 440px;
+}
+
+.Lorem{
+  padding-left: 20px;
+}
+
+.menu-bottom{
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  list-style-type: none;
+  background-color: #c8c8c8;
+} 
+
+.menu-bottom li{
+  display: inline-block;
+} 
+
+.menu-bottom a {
+  color: black;
+  padding: 10px 35px;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 15px;
+  font-family: 'Myriad Pro', 'Arial';
+  display: block;
+ }
+
+ .menu-bottom a:hover{
+ 	text-decoration: underline;
+}
+
+.menu-bottom li:last-child{
+  margin-left: 100px;
+}
