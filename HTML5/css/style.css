@@ -1,11 +1,11 @@
 
 @font-face {
   font-family: Tahoma; 
-  src: url(fonts/Tahoma.ttf); 
+  src: url('../fonts/Tahoma.ttf'); 
 }
 
 *{
-	padding: 0;
+  padding: 0;
 
 
 }
@@ -21,41 +21,59 @@
 .menu-header{
 margin: 0;  
 background-color: rgb(7,82,145);
-height: 30px;
 text-align:right;
 }
 
-.menu-header li{
+.menu-header li {
+  display: inline-block;
+}
+
+.menu-header .ola{
   display: inline-block;
 }
 
 .menu-header a{
   display: block;
-  color: rgb(83,164,221);
-  padding: 5px 35px;
   font-size: 10px;
-  text-decoration: none;
   text-align: right;
   font-family: 'Tahoma', 'Arial';
   font-weight: normal;
   font-size: 14px;
-
 }
 
-.menu-first:hover{
+.menu-first a{
+  text-decoration: none;
+  color: rgb(83,164,221);
+  padding: 0px 15px;
+}
+
+.menu-first a:hover{
   color:#ffffff;
+  background-color: rgb(83,164,221);
 }
 
-.minhas{
+.minhas>a{
   color: #ffffff;
-  border-left: 1px solid #ffffff;
-  border-right: 1px solid #ffffff; 
+  border-left: 1px solid rgb(83,164,221);
+  border-right: 1px solid (83,164,221);
+  text-decoration: none; 
+  padding: 0 15px;
+  height: 10px;
 }
 
 .minhas >a:before{
   content: url('../img/flag.png');
   margin-right: 10px;
   color: #ffffff;
+  height:10px;
+}
+
+.ola a{
+  display: block;
+  color: #ffffff;
+  background-color: rgb(83,164,221);
+  padding: 0px;
+  margin: 0px;
 } 
 
 .main-screen-wrapper{
@@ -72,7 +90,34 @@ text-align:right;
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 50%;
-
-  margin: 22% 0 0 -22%;
+  /*width: 50%;*/
+  margin: 18% 0 0 -18%;
+  font-family: 'Tahoma', 'Arial';
+  font-weight: normal;
 }
+
+.line1 {
+  position: relative;
+  display: block;
+  margin: 20px auto;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.facebook{
+  position: relative;
+  margin: 36px auto;
+}
+
+.name: {
+  display: block;
+  color: #ffffff;
+  font-size: 14px;
+  background-color: rgb(255,255,255);
+  width: 276px;
+  height: 35px;
+  margin: 15px auto;
+  padding-left: 20px;
+}
+
+
