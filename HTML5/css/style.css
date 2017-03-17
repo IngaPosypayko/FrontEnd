@@ -16,6 +16,7 @@
   background:url('../img/background.png');
   background-repeat: no-repeat;
   border: 1px solid black;
+  margin: 0 auto;
 }
 
 .menu-header{
@@ -106,10 +107,19 @@ text-align:right;
 
 .facebook{
   position: relative;
+  display: block;
+  height: 35px;
+  width: 275px;
   margin: 36px auto;
+  background-image: url('../img/facebook.png'); 
 }
 
-.name: {
+.line:{
+  display: inline-block;
+  overflow:hidden;
+}
+
+.form: {
   display: block;
   color: #ffffff;
   font-size: 14px;
