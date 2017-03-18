@@ -69,7 +69,8 @@ text-align:right;
   height:10px;
 }
 
-.ola a{
+
+.menu-header .ola {
   display: block;
   color: #ffffff;
   background-color: rgb(83,164,221);
@@ -84,8 +85,8 @@ text-align:right;
 .main-screen{
   z-index: 1;
   text-align: center;
-  width: 500px;
-  height: 500px;
+  width: 550px;
+  height: 550px;
   background: rgba(0, 0, 0, 0.63);
   margin: 0 auto;
   position: absolute;
@@ -97,10 +98,10 @@ text-align:right;
   font-weight: normal;
 }
 
-.line1 {
+.cadastre {
   position: relative;
   display: block;
-  margin: 20px auto;
+  margin: 15px auto;
   font-size: 24px;
   color: #ffffff;
 }
@@ -110,24 +111,82 @@ text-align:right;
   display: block;
   height: 35px;
   width: 275px;
-  margin: 36px auto;
+  margin: 25px auto;
   background-image: url('../img/facebook.png'); 
 }
 
+
 .line:{
-  display: inline-block;
-  overflow:hidden;
+  position: relative;
+  overflow:hidden; 
+  color:#ffffff;
+  height: 20px;
+}
+
+.line1{
+  display: block;
+  float: left;
+  margin-left:131px;
+}
+
+.line2{
+  display: block;
+  float: left;
+  margin:0 10px;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.line3{
+  display: block;
+  float: left;
+}
+form{
+  position: relative;
+  margin-top: 20px;
 }
 
 .form{
+  position: relative;
   display: block;
   color: #ffffff;
   font-size: 14px;
-  background: rgb(255,255,255);
+  background: rgb(15,15,15);
   width: 276px;
-  height: 35px;
-  margin: 15px auto;
-  padding-left: 20px;
+  height: 30px;
+  margin: 10px auto;
+  border: black;
+  padding-left: 10px;
 }
 
+.form:focus{
+background-color: rgb(27, 82, 136);
+}
 
+.checkbox{
+  display: block;
+  color: #ffffff;
+  font-size: 14px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  left: -50px;
+}
+
+.createaccount{
+  position: relative;
+  display: block;
+  height: 35px;
+  width: 150px;
+  margin: 15px auto;
+  background:rgb(83,164,221); 
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.bottom{
+  display: block;
+  color: #ffffff;
+  font-size: 11px;
+  margin: 5px auto;
+
+}
