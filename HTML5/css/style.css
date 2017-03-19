@@ -21,15 +21,16 @@
 .menu-header{
   background-color: rgb(7,82,145);
   text-align:right;
+  padding-right: 15px;
 }
 
 .menu-header li {
   display: inline-block;
 }
 
-.menu-header .ola{
+/*.menu-header .ola{
   display: inline-block;
-}
+}*/
 
 .menu-header a{
   display: block;
@@ -50,9 +51,8 @@
   background-color: rgb(83,164,221);
 }
 
-.minhas{
+.minhas {
   border-left: 1px solid rgb(83,164,221);
-  border-right: 1px solid rgb(83,164,221);
 }
 
 .minhas>a{
@@ -63,16 +63,21 @@
 .flag{
 height: 14px;
 }
-
+span{
+  padding-left: 5px;
+}
 .ola{
+  display: block;
   background-color: rgb(83,164,221);
   color: #ffffff;
 }
+
 
 .ola>a{
   display: inline-block;
   color: #ffffff;
   background-color: rgb(83,164,221);
+  margin: 0 5px;
 }
 
 .main-screen-wrapper{
@@ -104,14 +109,28 @@ height: 14px;
 }
 
 .facebook{
+  text-align: left;
   position: relative;
   display: block;
   height: 35px;
-  width: 275px;
-  margin: 25px auto;
-  background-image: url('../img/facebook.png'); 
+  width: 274px;
+  margin: 15px auto;
+  background:rgb(59,84,147); 
+  color: #ffffff;
 }
 
+.flogo{
+  display: inline-block;
+  padding: 0 15px;
+  font-size: 24px;
+  border-right: 1px solid #ffffff;
+}
+
+.flogin{
+  display: inline-block;
+  padding: 0 30px 7px 15px;
+  font-size: 14px;
+}
 
 .line:{
   position: relative;
@@ -121,22 +140,18 @@ height: 14px;
 }
 
 .line1{
-  display: block;
-  float: left;
-  margin-left:131px;
+  display:inline-block;
 }
 
 .line2{
-  display: block;
-  float: left;
+  display:inline-block;
   margin:0 10px;
   color: #ffffff;
   font-size: 14px;
 }
 
 .line3{
-  display: block;
-  float: left;
+ display:inline-block;
 }
 
 form{
