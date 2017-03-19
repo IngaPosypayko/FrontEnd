@@ -6,8 +6,7 @@
 
 *{
   padding: 0;
-
-
+  margin: 0;
 }
 
 .wrapper1{
@@ -20,9 +19,8 @@
 }
 
 .menu-header{
-margin: 0;  
-background-color: rgb(7,82,145);
-text-align:right;
+  background-color: rgb(7,82,145);
+  text-align:right;
 }
 
 .menu-header li {
@@ -35,17 +33,16 @@ text-align:right;
 
 .menu-header a{
   display: block;
-  font-size: 10px;
+  font-size: 14px;
   text-align: right;
   font-family: 'Tahoma', 'Arial';
   font-weight: normal;
-  font-size: 14px;
+  padding: 13px 10px;
 }
 
 .menu-first a{
   text-decoration: none;
   color: rgb(83,164,221);
-  padding: 0px 15px;
 }
 
 .menu-first a:hover{
@@ -53,30 +50,30 @@ text-align:right;
   background-color: rgb(83,164,221);
 }
 
+.minhas{
+  border-left: 1px solid rgb(83,164,221);
+  border-right: 1px solid rgb(83,164,221);
+}
+
 .minhas>a{
   color: #ffffff;
-  border-left: 1px solid rgb(83,164,221);
-  border-right: 1px solid (83,164,221);
   text-decoration: none; 
-  padding: 0 15px;
-  height: 10px;
 }
 
-.minhas >a:before{
-  content: url('../img/flag.png');
-  margin-right: 10px;
+.flag{
+height: 14px;
+}
+
+.ola{
+  background-color: rgb(83,164,221);
   color: #ffffff;
-  height:10px;
 }
 
-
-.menu-header .ola {
-  display: block;
+.ola>a{
+  display: inline-block;
   color: #ffffff;
   background-color: rgb(83,164,221);
-  padding: 0px;
-  margin: 0px;
-} 
+}
 
 .main-screen-wrapper{
   position:relative;
@@ -141,6 +138,7 @@ text-align:right;
   display: block;
   float: left;
 }
+
 form{
   position: relative;
   margin-top: 20px;
