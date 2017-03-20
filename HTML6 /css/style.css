@@ -111,36 +111,25 @@ span{
 .facebook{
   text-align: left;
   position: relative;
-  display: table;
+  display: block;
+  height: 35px;
   width: 274px;
   margin: 15px auto;
   background:rgb(59,84,147); 
   color: #ffffff;
-  border:none;
-  cursor:pointer;
 }
 
 .flogo{
-    padding: 5px 15px;
-    display: table-cell;
-    float: left;
-    padding-top: 5px;
-    font-size: 24px;
-    border-right: 1px solid #ffffff;
+  display: inline-block;
+  padding: 0 15px;
+  font-size: 24px;
+  border-right: 1px solid #ffffff;
 }
 
 .flogin{
-	display: table-cell;
-    float: left;
-    vertical-align: middle;
-    padding: 11px 30px 10px 15px;
-    font-size: 14px;
-}
-.flogin1 {
-    padding-left: 5px;
-    padding-top: 11px;
-    display: table-cell;
-    float: left
+  display: inline-block;
+  padding: 0 30px 7px 15px;
+  font-size: 14px;
 }
 
 .line:{
@@ -150,10 +139,8 @@ span{
   height: 20px;
 }
 
-.line1,
-.line3{
+.line1{
   display:inline-block;
-  vertical-align: middle;
 }
 
 .line2{
@@ -161,6 +148,10 @@ span{
   margin:0 10px;
   color: #ffffff;
   font-size: 14px;
+}
+
+.line3{
+ display:inline-block;
 }
 
 form{
@@ -181,8 +172,7 @@ form{
   padding-left: 10px;
 }
 
-.form:focus,
-.form:hover{
+.form:focus{
 background-color: rgb(27, 82, 136);
 }
 
@@ -204,8 +194,6 @@ background-color: rgb(27, 82, 136);
   background:rgb(83,164,221); 
   color: #ffffff;
   font-size: 14px;
-  border:none;
-  cursor:pointer;
 }
 
 .bottom{
