@@ -1,205 +1,155 @@
 
-@font-face {
-  font-family: Tahoma; 
-  src: url('../fonts/Tahoma.ttf'); 
+*@font-face {
+  font-family: ; 
+  src: url('../fonts/lsansiuni.ttf'); 
 }
 
 *{
   padding: 0;
   margin: 0;
-}
-
-.wrapper1{
-   width: 1210px;
-  height: 1025px;
-  background:url('../img/background.png');
-  background-repeat: no-repeat;
-  border: 1px solid black;
   margin: 0 auto;
 }
 
+.wrapper{
+   width: 1000px;
+  height: 1305px;
+  border: 1px solid black;
+}
+
+.main-picture{ 
+  width: 910px;
+  height: 235px;
+  margin:5px 45px;
+}
+
 .menu-header{
-  background-color: rgb(7,82,145);
-  text-align:right;
-  padding-right: 15px;
+  background-color: rgb(42, 46, 50);
+  margin:5px 45px;
 }
 
 .menu-header li {
   display: inline-block;
 }
 
-/*.menu-header .ola{
-  display: inline-block;
-}*/
 
 .menu-header a{
   display: block;
   font-size: 14px;
-  text-align: right;
-  font-family: 'Tahoma', 'Arial';
+  font-family: 'lsansiuni', 'Arial';
   font-weight: normal;
-  padding: 13px 10px;
+  padding: 5px 15px;
 }
 
 .menu-first a{
   text-decoration: none;
-  color: rgb(83,164,221);
+  color:#ffffff;
 }
 
 .menu-first a:hover{
-  color:#ffffff;
-  background-color: rgb(83,164,221);
+  background-color: rgb(21,76,111);
+  border-radius: 20px;
 }
 
-.minhas {
-  border-left: 1px solid rgb(83,164,221);
+.comtainer-main-screen{
+
 }
 
-.minhas>a{
-  color: #ffffff;
-  text-decoration: none; 
+.left-container{
+  margin-left: 45px;
+  width: 190px;
+  float: left;
 }
 
-.flag{
-height: 14px;
+.title-h1{
+  margin-left: 10px;
+  font-size: 10px;
 }
-span{
-  padding-left: 5px;
+
+/*.title-h1: before {
+  content: url('../img/sprite.png');
+  justify-content: 10px;
+}*/
+.imglist1{
+  /*display: block;*/
+  width: 5px;
+  height: 20px;
+  background-position: 0 0 ; 
 }
-.ola{
+.list1{
+  list-style-type: none;
+}
+
+.list1 a{
   display: block;
-  background-color: rgb(83,164,221);
-  color: #ffffff;
+  text-decoration: none; 
+  color: black;
+  font-size: 12px;
+  padding-left: 0px;
 }
 
-
-.ola>a{
-  display: inline-block;
-  color: #ffffff;
-  background-color: rgb(83,164,221);
-  margin: 0 5px;
-}
-
-.main-screen-wrapper{
-  position:relative;
-}
-
-.main-screen{
-  z-index: 1;
-  text-align: center;
-  width: 550px;
-  height: 550px;
-  background: rgba(0, 0, 0, 0.63);
+.central-container{
+  height: 625px;
   margin: 0 auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  /*width: 50%;*/
-  margin: 18% 0 0 -18%;
-  font-family: 'Tahoma', 'Arial';
+  width: 525px;
+  background-color: blue;
+ float: left;
+}
+
+.right-container{
+  margin-right: 45px;
+  width: 190px;
+  float: right;
+}
+
+.list2{
+  list-style-type: none;
+
+}
+
+.list2 a{
+  text-decoration: none; 
+  color: black;
+  font-size: 12px;
+  padding-left: 0px;
+}
+
+.picture-footer{
+ width: 676px;
+ margin:20px 0px 20px 160px; 
+}
+
+.footer{
+  margin:5px 45px;
+  background-color: rgb(33, 58, 77);
+  height: 80px;
+  text-align: center;
+  font-family: 'Arial';
   font-weight: normal;
 }
 
-.cadastre {
-  position: relative;
-  display: block;
-  margin: 15px auto;
-  font-size: 24px;
-  color: #ffffff;
-}
-
-.facebook{
-  text-align: left;
-  position: relative;
-  display: block;
-  height: 35px;
-  width: 274px;
-  margin: 15px auto;
-  background:rgb(59,84,147); 
-  color: #ffffff;
-}
-
-.flogo{
+.menu-footer li {
   display: inline-block;
-  padding: 0 15px;
-  font-size: 24px;
+  margin: 13px 0;
+}
+
+.menu-footer a{
+  text-decoration:none; 
+  color: #ffffff;
+  font-size: 12px;
+  margin: 0 10px;
+}
+
+.border{
   border-right: 1px solid #ffffff;
 }
 
-.flogin{
-  display: inline-block;
-  padding: 0 30px 7px 15px;
-  font-size: 14px;
+.menu-footer a:hover{
+  color: rgb(32,105,136);
 }
 
-.line:{
-  position: relative;
-  overflow:hidden; 
-  color:#ffffff;
-  height: 20px;
+.foot{
+  color: rgb(127, 71, 64);
+  font-size: 10px;
 }
 
-.line1{
-  display:inline-block;
-}
 
-.line2{
-  display:inline-block;
-  margin:0 10px;
-  color: #ffffff;
-  font-size: 14px;
-}
-
-.line3{
- display:inline-block;
-}
-
-form{
-  position: relative;
-  margin-top: 20px;
-}
-
-.form{
-  position: relative;
-  display: block;
-  color: #ffffff;
-  font-size: 14px;
-  background: rgb(15,15,15);
-  width: 276px;
-  height: 30px;
-  margin: 10px auto;
-  border: black;
-  padding-left: 10px;
-}
-
-.form:focus{
-background-color: rgb(27, 82, 136);
-}
-
-.checkbox{
-  display: block;
-  color: #ffffff;
-  font-size: 14px;
-  margin-left: 20px;
-  margin-bottom: 10px;
-  left: -50px;
-}
-
-.createaccount{
-  position: relative;
-  display: block;
-  height: 35px;
-  width: 150px;
-  margin: 15px auto;
-  background:rgb(83,164,221); 
-  color: #ffffff;
-  font-size: 14px;
-}
-
-.bottom{
-  display: block;
-  color: #ffffff;
-  font-size: 11px;
-  margin: 5px auto;
-
-}
