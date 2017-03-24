@@ -8,6 +8,36 @@
 <body >
   <div class="wrapper">
     <header>
+    <div class="top-menu">
+      <div class="top-menu-left">  
+        <div class= "iconphone"></div>
+        <p class="phone"> (044) 123-45-67 (044) 567-89-10</p>
+      </div> 
+      <div class="top-menu-central">  
+        <form class="login">
+           <form class="login1">
+              <div class= "iconman"></div>
+              <input type="text" name="login">
+              <input type="password" name="password">
+              <input type="submit" value="вход">
+            </form>
+            <form class="login2">
+               <input type="submit" value="регистрация">
+            </form>
+            <form class="login3">
+               <input type="submit" value="Забыли пароль?"> 
+             </form>
+         </form>
+        </div> 
+        <div class="top-menu-right">
+        <form class="contacts">
+          <button type="button">contacts</button>
+        </form>
+        </div>
+
+    </div>
+
+
     <!--PICTURE-->
      <div class="picture">
         <img class= "main-picture" src="img/mainpicture.png" alt="picture" title="picture"> 
@@ -21,20 +51,25 @@
         <li class="menu-first"><a href="#">ДОСТАВКА</a></li>
         <li class="menu-first" ><a href="#">СТАТЬИ</a></li>
         <li class="menu-first"><a href="#">КОНТАКТЫ</a></li>
-     </ul>
+        <li><a class= "iconkoshyk" href="#"> </a></li>
+        <li><a class= "koshyk" href="#">товаров:</a></li>
+        <li><a class= "koshyk" href="#">на сумму:</a></li>
+      </ul> 
     </header> 
 
 
 <!--MAIN SCREEN-->
 <div class="container-main-screen">
   <div class="left-container">
-   <div class="title-h1"><div class= "icon1"></div>
+    <div class="border-h1">
+      <div class= "icon1"></div>
       <p class="title-h1"> КАТАЛОГ ПРОДУКЦИИ </p>
-   </div>
-    <div class="title-h2"><div class= "icon2"></div>
-      <span> ШИНЫ</span>
-   </div> 
-    <ul class="list1">
+    </div>
+    <div class="border-h2">
+      <div class= "icon2"></div>
+      <p class="title-h2"> ШИНЫ</p>
+    </div>
+      <ul class="list1">
            <li> <div class= "icon3"></div>
                  <a href="#">Наименование 1</a>
            </li>
@@ -47,76 +82,164 @@
             <li> <div class= "icon3"></div>
                  <a href="#">Наименование 4</a>
            </li>
-    </ul> 
-    <div class="title-h2">
-      <span> ДИСКИ</span>
-   </div> 
-    <ul class="list1">
-           <li><a href="#">Наименование 1</a></li>
-           <li><a href="#">Наименование 2</a></li>
-           <li><a href="#">Наименование 3</a></li>
-           <li><a href="#">Наименование 4</a></li>
-    </ul> 
-    <div class="title-h2">
-      <span> БОЛТЫ</span>
-   </div> 
-    <ul class="list1">
-           <li><a href="#">Наименование 1</a></li>
-           <li><a href="#">Наименование 2</a></li>
-           <li><a href="#">Наименование 3</a></li>
-           <li><a href="#">Наименование 4</a></li>
-    </ul> 
+       </ul> 
+       
+    <div class="border-h2">
+       <div class= "icon2"></div>
+       <p class="title-h2"> ДИСКИ</p>
+    </div>
+      <ul class="list1">
+           <li> <div class= "icon3"></div>
+                 <a href="#">Наименование 1</a>
+           </li>
+            <li> <div class= "icon3"></div>
+                 <a href="#">Наименование 2</a>
+           </li>
+            <li> <div class= "icon3"></div>
+                 <a href="#">Наименование 3</a>
+           </li>
+            <li> <div class= "icon3"></div>
+                 <a href="#">Наименование 4</a>
+           </li>
+       </ul> 
+     <div class="border-h2">
+       <div class= "icon2"></div>
+       <p class="title-h2"> БОЛТЫ</p>
+     </div>
+      <ul class="list1">
+           <li> <div class= "icon3"></div>
+                 <a href="#">Наименование 1</a>
+           </li>
+            <li> <div class= "icon3"></div>
+                 <a href="#">Наименование 2</a>
+           </li>
+            <li> <div class= "icon3"></div>
+                 <a href="#">Наименование 3</a>
+           </li>
+            <li> <div class= "icon3"></div>
+                 <a href="#">Наименование 4</a>
+           </li>
+       </ul> 
   </div>
+
+
+
   <div class="central-container">
-    
+  
     <figure class="tire">  
-        <figcaption>Nokian</figcaption>
+        <figcaption class="brand">Goodyear</figcaption>
+        <figcaption class="description">Ultra Grip Extreme</figcaption>
           <div class="imgbackground">
-             <img src="img/nokian.png" alt="tire">
+             <img src="img/goodyear.png" alt="tire">
           </div>
-        <figcaption>Nokian</figcaption>
+        <figcaption class="price">90.0 грн.</figcaption>
     </figure>
     
      <figure class="tire">  
-        <figcaption>Nokian</figcaption>
+        <figcaption class="brand">Nokian</figcaption>
+        <figcaption class="description">Hakkapelitta R</figcaption>
           <div class="imgbackground">
              <img src="img/nokian.png" alt="tire">
           </div>
-        <figcaption>Nokian</figcaption>
+        <figcaption class="price">115.0 грн.</figcaption>
     </figure>
 
      <figure class="tire">  
-        <figcaption>Nokian</figcaption>
+        <figcaption class="brand">Hankook</figcaption>
+        <figcaption class="description">K 708 155/65 R14</figcaption>
+          <div class="imgbackground">
+             <img src="img/hankook.png" alt="tire">
+          </div>
+        <figcaption class="price">393.0 грн.</figcaption>
+    </figure>
+
+     <figure class="tire">  
+        <figcaption class="brand">Goodyear</figcaption>
+        <figcaption class="description">Ultra Grip Extreme</figcaption>
+          <div class="imgbackground">
+             <img src="img/goodyear.png" alt="tire">
+          </div>
+        <figcaption class="price">90.0 грн.</figcaption>
+    </figure>
+    
+     <figure class="tire">  
+        <figcaption class="brand">Nokian</figcaption>
+        <figcaption class="description">Hakkapelitta R</figcaption>
           <div class="imgbackground">
              <img src="img/nokian.png" alt="tire">
           </div>
-        <figcaption>Nokian</figcaption>
+        <figcaption class="price">115.0 грн.</figcaption>
+    </figure>
+
+     <figure class="tire">  
+        <figcaption class="brand">Hankook</figcaption>
+        <figcaption class="description">K 708 155/65 R14</figcaption>
+          <div class="imgbackground">
+             <img src="img/hankook.png" alt="tire">
+          </div>
+        <figcaption class="price">393.0 грн.</figcaption>
+    </figure>
+
+     <figure class="tire">  
+        <figcaption class="brand">Goodyear</figcaption>
+        <figcaption class="description">Ultra Grip Extreme</figcaption>
+          <div class="imgbackground">
+             <img src="img/goodyear.png" alt="tire">
+          </div>
+        <figcaption class="price">90.0 грн.</figcaption>
+    </figure>
+    
+     <figure class="tire">  
+        <figcaption class="brand">Nokian</figcaption>
+        <figcaption class="description">Hakkapelitta R</figcaption>
+          <div class="imgbackground">
+             <img src="img/nokian.png" alt="tire">
+          </div>
+        <figcaption class="price">115.0 грн.</figcaption>
+    </figure>
+
+     <figure class="tire">  
+        <figcaption class="brand">Hankook</figcaption>
+        <figcaption class="description">K 708 155/65 R14</figcaption>
+          <div class="imgbackground">
+             <img src="img/hankook.png" alt="tire">
+          </div>
+        <figcaption class="price">393.0 грн.</figcaption>
     </figure>
 
   
   </div>
   <div class="right-container">
-    <div class="title-h1">
-      <span>БРЕНДЫ </span>
-   </div>
-    <div class="title-h2">
-      <span> ШИНЫ</span>
-   </div> 
-    <ul class="list2">
-           <li><a href="#">Бренд 1</a></li>
-           <li><a href="#">Бренд 2</a></li>
-           <li><a href="#">Бренд 3</a></li>
-    </ul> 
-    <div class="title-h2">
-      <span> ДИСКИ</span>
-   </div> 
-    <ul class="list2">
-           <li><a href="#">Бренд 1</a></li>
-           <li><a href="#">Бренд 2</a></li>
-           <li><a href="#">Бренд 3</a></li>
-    </ul> 
+    <div class="border-h1">
+      <div class= "icon1"></div>
+      <p class="title-h1"> БРЕНДЫ </p>
+    </div>
+    <div class="border-h2">
+      <div class= "icon2"></div>
+      <p class="title-h2"> ШИНЫ</p>
+    </div>
+      <ul class="list1">
+           <li> <p class="checkbox"> <input type="checkbox" id="checkbox" > Бренд 1 </p> 
+           </li>
+            <li> <p class="checkbox"> <input type="checkbox" id="checkbox" > Бренд 2 </p> 
+           </li>
+            <li> <p class="checkbox"> <input type="checkbox" id="checkbox" > Бренд 3 </p> 
+           </li>
+       </ul> 
+       
+    <div class="border-h2">
+       <div class= "icon2"></div>
+       <p class="title-h2"> ДИСКИ</p>
+    </div>
+      <ul class="list1">
+           <li> <p class="checkbox"> <input type="checkbox" id="checkbox" > Бренд 1 </p> 
+           </li>
+            <li> <p class="checkbox"> <input type="checkbox" id="checkbox" > Бренд 2 </p> 
+           </li>
+            <li> <p class="checkbox"> <input type="checkbox" id="checkbox" > Бренд 3 </p> 
+           </li>
+       </ul> 
   </div>
-
 </div>
 
 

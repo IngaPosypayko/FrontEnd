@@ -16,6 +16,66 @@
   border: 1px solid black;
 }
 
+.top-menu{
+  margin: 15px 0 10px 45px;
+}
+
+.top-menu-left{
+  display: inline-block;
+}
+
+.iconphone{
+  float: left;
+  width: 28px;
+  height: 25px;
+  background: url('../img/sprite.png') no-repeat;
+  background-position: 0 0 ; 
+}
+
+.phone{
+  font-size: 16px;
+  height: 24px;
+  display: table-cell;
+  vertical-align: middle;
+  color:rgb(121,135,141);
+}
+
+.top-menu-central{
+  background-color: blue;
+  display: inline-block;
+}
+
+.login{
+  display: inline-block;
+  padding: 5px 10px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.login1, .login2, .login3{
+display: inline-block;
+}
+
+.top-menu-right{
+  display: inline-block;
+}
+
+.contacts{
+  /*width: 25px;
+  height: 25px;*/
+  background: url('../img/sprite.png') no-repeat;
+  background-position: -35px 0;
+}
+
+.iconman{
+  float: left;
+  width: 25px;
+  height: 25px;
+  background: url('../img/sprite.png') no-repeat;
+  background-position: -27px 0 ; 
+}
+
+
 .main-picture{ 
   width: 910px;
   height: 235px;
@@ -25,6 +85,8 @@
 .menu-header{
   background-color: rgb(42, 46, 50);
   margin:5px 45px;
+  text-align: right;
+  padding: 0 20px 5px 0;
 }
 
 .menu-header li {
@@ -37,22 +99,41 @@
   font-size: 14px;
   font-family: 'lsansiuni', 'Arial';
   font-weight: normal;
-  padding: 5px 15px;
-}
-
-.menu-first a{
   text-decoration: none;
   color:#ffffff;
 }
 
-.menu-first a:hover{
-  background-color: rgb(21,76,111);
+.menu-first {
+   padding: 0 10px;
+}
+
+.iconkoshyk{
+  padding: 0 7px 0 0;
+}
+
+.koshyk{
+padding: 0 10px 0 0;
+}
+
+.menu-first :hover{
+  background-color: rgb(12,50,86);
   border-radius: 20px;
 }
 
-.comtainer-main-screen{
+.iconkoshyk{
+  float: left;
+  width: 15px;
+  height: 20px;
+  background: url('../img/sprite.png') no-repeat;
+  background-position: -115 0 ; 
+}
+
+
+.container-main-screen{
   overflow: hidden;
   position: relative;
+  font-family: 'lsansiuni', 'Arial';
+  font-weight: normal;
 
 }
 
@@ -60,51 +141,63 @@
   margin-left: 45px;
   width: 190px;
   float: left;
+  padding-top: 10px;
+  color: rgb(12, 50, 86);
 }
 
-.title-h1{
-  /*clear: both;*/
-  margin-top: 10px;
+.title-h1, .title-h2{
   font-size: 13px;
   height: 24px;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 
 .icon1{
+  float: left;
   width: 23px;
   height: 24px;
-  float: left;
   background: url('../img/sprite.png') no-repeat;
   background-position: 0 -26 ; 
 }
 
-.title-h2{
-  margin-top: 10px;
-  font-size: 13px;
-}
-
-
 .icon2{
+  float: left;
   width: 25px;
   height: 25px;
-  float: left;
   background: url('../img/sprite.png') no-repeat;
   background-position: -24 -25 ; 
 }
 
+.border-h1{
+  border: 1px solid rgb(121,135,141);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+
+.border-h2{
+  border: 1px solid rgb(121,135,141);
+  border-radius: 10px;
+  margin-right: 40px;
+}
 
 
 .list1{
+  margin-top: 3px;
   list-style-type: none;
 }
 
 .list1 a{
-  height: 15px;
   text-decoration: none; 
-  color: black;
-  font-size: 12px;
-  padding-left: 0px;
+  font-size: 14px;
+  color: rgb(12, 50, 86);
 }
+
+.list1 >li >a: hover{
+  font-style: italic;
+  color: red;
+} 
 
 .icon3{
   width: 15px;
@@ -112,9 +205,11 @@
   float: left;
   background: url('../img/sprite.png') no-repeat;
   background-position: -50 -32 ; 
+  margin-left: 30px;
 }
 
 .central-container{
+  /*padding-top: 10px;*/
   height: 625px;
   width: 525px;
   background: linear-gradient(to bottom, rgb(228, 231, 232) , rgb(193,205,210));
@@ -128,6 +223,7 @@
   width: 170px;
   border-radius: 5px;
   text-align: center; 
+  margin:10px 0;  
 }
 
 .imgbackground{
@@ -137,26 +233,35 @@
   padding: 2px 2px;
   border-radius: 5px; 
 }
+
 .tireimg{
    height: 120px;
 }
 
+.brand{
+  color:rgb(32, 105,136);
+  font-size: 14px;
+}
+
+.price{
+  color: rgb(12,50,86);
+  font-size: 16px;
+  font-style: italic;
+}
+
 .right-container{
-  margin-right: 45px;
+  margin-right: 35px;
+  margin-left: 10px;
+  padding-top: 10px;
   width: 190px;
   float: right;
+  color: rgb(12, 50, 86);
 }
 
-.list2{
-  list-style-type: none;
-
-}
-
-.list2 a{
-  text-decoration: none; 
-  color: black;
-  font-size: 12px;
-  padding-left: 0px;
+.checkbox{
+  margin-left: 20px;
+  font-size: 13px;
+  margin-bottom: 5px;
 }
 
 .picture-footer{
