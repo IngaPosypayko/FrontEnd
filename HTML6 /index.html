@@ -9,32 +9,26 @@
   <div class="wrapper">
     <header>
     <div class="top-menu">
-      <div class="top-menu-left">  
-        <div class= "iconphone"></div>
-        <p class="phone"> (044) 123-45-67 (044) 567-89-10</p>
-      </div> 
-      <div class="top-menu-central">  
-        <form class="login">
-           <form class="login1">
-              <div class= "iconman"></div>
-              <input type="text" name="login">
-              <input type="password" name="password">
-              <input type="submit" value="вход">
-            </form>
-            <form class="login2">
-               <input type="submit" value="регистрация">
-            </form>
-            <form class="login3">
-               <input type="submit" value="Забыли пароль?"> 
-             </form>
-         </form>
-        </div> 
-        <div class="top-menu-right">
-        <form class="contacts">
-          <button type="button">contacts</button>
-        </form>
+       <div class="top-menu-left">  
+           <div class= "iconphone"></div>
+           <p class="phone"> (044) 123-45-67 (044) 567-89-10</p>
+       </div>
+
+       <div class="top-menu-central">  
+         <form class="login">
+               <div class= "iconman"></div>
+               <input type="text" name="login" placeholder="Логин">
+               <input type="password" name="password" placeholder="Пароль">
+               <a class= "enter" href="#"> вход</a>
+               <a class= "registration" href="#"> регистрация</a>
+               <a class= "forget-password" href="#"> забыли пароль?</a>
+          </form>
+
         </div>
 
+        <div class="top-menu-right">
+            <a class="contacts" href="#"></a>
+         </div>
     </div>
 
 
@@ -45,22 +39,26 @@
 
 
     <!--HEADER MENU-->
-     <ul class="menu-header">
-        <li class="menu-first"><a href="#">О КОМПАНИИ</a></li>
-        <li class="menu-first"><a href="#">ОПЛАТА</a></li>
-        <li class="menu-first"><a href="#">ДОСТАВКА</a></li>
-        <li class="menu-first" ><a href="#">СТАТЬИ</a></li>
-        <li class="menu-first"><a href="#">КОНТАКТЫ</a></li>
-        <li><a class= "iconkoshyk" href="#"> </a></li>
-        <li><a class= "koshyk" href="#">товаров:</a></li>
-        <li><a class= "koshyk" href="#">на сумму:</a></li>
-      </ul> 
-    </header> 
+  <div class="menu">
+     <nav class="menu-header">
+        <li><a href="#">О КОМПАНИИ</a></li>
+        <li><a href="#">ОПЛАТА</a></li>
+        <li><a href="#">ДОСТАВКА</a></li>
+        <li><a href="#">СТАТЬИ</a></li>
+        <li ><a href="#">КОНТАКТЫ</a></li>
+      </nav> 
+      <div class="koshyk-all">
+        <a class="iconkoshyk" href=""></a>
+        <a class="koshyk" href="">товаров:</a>
+        <a class="koshyk" href="">на сумму:</a>
+      </div>
+     </div>  
+   </header> 
 
 
 <!--MAIN SCREEN-->
 <div class="container-main-screen">
-  <div class="left-container">
+  <aside class="left-container">
     <div class="border-h1">
       <div class= "icon1"></div>
       <p class="title-h1"> КАТАЛОГ ПРОДУКЦИИ </p>
@@ -69,7 +67,7 @@
       <div class= "icon2"></div>
       <p class="title-h2"> ШИНЫ</p>
     </div>
-      <ul class="list1">
+      <nav class="list1">
            <li> <div class= "icon3"></div>
                  <a href="#">Наименование 1</a>
            </li>
@@ -82,13 +80,13 @@
             <li> <div class= "icon3"></div>
                  <a href="#">Наименование 4</a>
            </li>
-       </ul> 
+       </nav> 
        
     <div class="border-h2">
        <div class= "icon2"></div>
        <p class="title-h2"> ДИСКИ</p>
     </div>
-      <ul class="list1">
+      <nav class="list1">
            <li> <div class= "icon3"></div>
                  <a href="#">Наименование 1</a>
            </li>
@@ -101,12 +99,12 @@
             <li> <div class= "icon3"></div>
                  <a href="#">Наименование 4</a>
            </li>
-       </ul> 
+       </nav> 
      <div class="border-h2">
        <div class= "icon2"></div>
        <p class="title-h2"> БОЛТЫ</p>
      </div>
-      <ul class="list1">
+      <nav class="list1">
            <li> <div class= "icon3"></div>
                  <a href="#">Наименование 1</a>
            </li>
@@ -119,8 +117,8 @@
             <li> <div class= "icon3"></div>
                  <a href="#">Наименование 4</a>
            </li>
-       </ul> 
-  </div>
+       </nav> 
+  </aside>
 
 
 
@@ -209,7 +207,7 @@
 
   
   </div>
-  <div class="right-container">
+  <aside class="right-container">
     <div class="border-h1">
       <div class= "icon1"></div>
       <p class="title-h1"> БРЕНДЫ </p>
@@ -218,35 +216,42 @@
       <div class= "icon2"></div>
       <p class="title-h2"> ШИНЫ</p>
     </div>
-      <ul class="list1">
+      <nav class="list1">
            <li> <p class="checkbox"> <input type="checkbox" id="checkbox" > Бренд 1 </p> 
            </li>
             <li> <p class="checkbox"> <input type="checkbox" id="checkbox" > Бренд 2 </p> 
            </li>
             <li> <p class="checkbox"> <input type="checkbox" id="checkbox" > Бренд 3 </p> 
            </li>
-       </ul> 
+       </nav> 
        
     <div class="border-h2">
        <div class= "icon2"></div>
        <p class="title-h2"> ДИСКИ</p>
     </div>
-      <ul class="list1">
+      <nav class="list1">
            <li> <p class="checkbox"> <input type="checkbox" id="checkbox" > Бренд 1 </p> 
            </li>
             <li> <p class="checkbox"> <input type="checkbox" id="checkbox" > Бренд 2 </p> 
            </li>
             <li> <p class="checkbox"> <input type="checkbox" id="checkbox" > Бренд 3 </p> 
            </li>
-       </ul> 
-  </div>
+       </nav> 
+  </aside>
 </div>
 
 
 <!--FOOTER-->
-   <div >
-     <img class="picture-footer" src="img/footerlogo.png" alt="logo-footer" title="logo-footer"> 
-   </div>
+   <footer class="logo-footer" >
+     <a class="logo1" href="#"></a>
+     <a class="logo2" href="#"></a>
+     <a class="logo3" href="#"></a>
+     <a class="logo4" href="#"></a>
+     <a class="logo5" href="#"></a>
+     <a class="logo6" href="#"></a>
+     <a class="logo7" href="#"></a>
+     <a class="logo8" href="#"></a>
+   </footer>
 
    <div class="footer">
      <ul class="menu-footer">

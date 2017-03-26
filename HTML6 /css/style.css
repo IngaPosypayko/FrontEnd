@@ -20,8 +20,11 @@
   margin: 15px 0 10px 45px;
 }
 
+/*------------------TOP-MENU-LEFT----------------*/
+
 .top-menu-left{
   display: inline-block;
+  vertical-align: middle;
 }
 
 .iconphone{
@@ -40,31 +43,13 @@
   color:rgb(121,135,141);
 }
 
+/*-----------------TOP-MENU-CENTRAL----------------*/
+
 .top-menu-central{
   background-color: blue;
   display: inline-block;
-}
-
-.login{
-  display: inline-block;
-  padding: 5px 10px;
-  height: 20px;
-  border-radius: 5px;
-}
-
-.login1, .login2, .login3{
-display: inline-block;
-}
-
-.top-menu-right{
-  display: inline-block;
-}
-
-.contacts{
-  /*width: 25px;
-  height: 25px;*/
-  background: url('../img/sprite.png') no-repeat;
-  background-position: -35px 0;
+  vertical-align: middle;
+  margin-left: 20px;
 }
 
 .iconman{
@@ -75,6 +60,50 @@ display: inline-block;
   background-position: -27px 0 ; 
 }
 
+.login{
+  display: inline-block;
+  padding: 5px 10px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.enter, .registration{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 0 5px;
+}
+
+.enter{
+  border-right: 1px solid #ffffff;
+}
+
+.forget-password{
+  color:#ffffff;
+  font-size: 12px;
+  padding: 0 10px;
+}
+
+/*------------------TOP-MENU-RIGHT---------------*/
+
+.top-menu-right{
+  display: inline-block;
+  margin-left: 20px;
+  vertical-align: middle;
+}
+
+.contacts{
+  display: block;
+  width: 60px;
+  height: 13px;
+  background: url('../img/sprite.png') no-repeat;
+  background-position: -47 4;
+  border:1px solid rgb(121,135,141);
+  border-radius: 10px;
+  padding: 5px;
+}
+
+/*----------------MAIN-PICTURE---------------------*/
 
 .main-picture{ 
   width: 910px;
@@ -82,15 +111,21 @@ display: inline-block;
   margin:5px 45px;
 }
 
+
+/*-------------------MENU-HEADER------------------*/
+
+
 .menu-header{
   background-color: rgb(42, 46, 50);
-  margin:5px 45px;
+  margin:0 45px;
   text-align: right;
-  padding: 0 20px 5px 0;
+  margin-bottom: 5px;
 }
 
 .menu-header li {
   display: inline-block;
+  height: 30px;
+  margin-right: 10px;
 }
 
 
@@ -101,33 +136,41 @@ display: inline-block;
   font-weight: normal;
   text-decoration: none;
   color:#ffffff;
+  padding: 6px 10px;
 }
 
-.menu-first {
-   padding: 0 10px;
-}
-
-.iconkoshyk{
-  padding: 0 7px 0 0;
-}
-
-.koshyk{
-padding: 0 10px 0 0;
-}
-
-.menu-first :hover{
+.menu-header li :hover{
   background-color: rgb(12,50,86);
   border-radius: 20px;
 }
 
+/*-------------------------KOSHYK-------------------------*/
+.menu{
+  display: inline-block;
+}
+.koshyk-all{
+  display: inline-block;
+}
+.koshyk{
+padding: 0 10px 0 0;
+/*display: inline-block;*/
+font-size: 14px;
+  font-family: 'lsansiuni', 'Arial';
+  font-weight: normal;
+  text-decoration: none;
+  color: red;
+  }
+
 .iconkoshyk{
+ /* display: inline-block;*/
   float: left;
-  width: 15px;
+  width: 25px;
   height: 20px;
   background: url('../img/sprite.png') no-repeat;
   background-position: -115 0 ; 
 }
 
+/*------MAIN-SCREEN-LEFT-SIDE-------------*/
 
 .container-main-screen{
   overflow: hidden;
@@ -138,6 +181,7 @@ padding: 0 10px 0 0;
 }
 
 .left-container{
+  height: 625px;
   margin-left: 45px;
   width: 190px;
   float: left;
@@ -194,10 +238,10 @@ padding: 0 10px 0 0;
   color: rgb(12, 50, 86);
 }
 
-.list1 >li >a: hover{
+.list1 li :hover{
   font-style: italic;
-  color: red;
-} 
+  margin-left: 10px;
+}
 
 .icon3{
   width: 15px;
@@ -208,8 +252,9 @@ padding: 0 10px 0 0;
   margin-left: 30px;
 }
 
+/*---------MAIN-SCREEN-CENTRAL-PART-------------*/
+
 .central-container{
-  /*padding-top: 10px;*/
   height: 625px;
   width: 525px;
   background: linear-gradient(to bottom, rgb(228, 231, 232) , rgb(193,205,210));
@@ -249,7 +294,10 @@ padding: 0 10px 0 0;
   font-style: italic;
 }
 
+/*------------MAIN-SCREEN-RIGHT-PART--------------*/
+
 .right-container{
+  height: 625px;
   margin-right: 35px;
   margin-left: 10px;
   padding-top: 10px;
@@ -264,10 +312,77 @@ padding: 0 10px 0 0;
   margin-bottom: 5px;
 }
 
-.picture-footer{
- width: 676px;
- margin:20px 0px 20px 160px; 
+    /*---------FOOTER LOGO--------------*/
+.logo-footer{
+  margin: 15px auto;
 }
+
+.logo1{
+  margin-left: 160px;
+  display: inline-block;
+  height: 40px;
+  width: 90px;
+  background: url('../img/footerlogo.png') no-repeat;
+  background-position: 0 0; 
+}
+
+.logo2{
+  display: inline-block;
+  height: 40px;
+  width: 115px;
+  background: url('../img/footerlogo.png') no-repeat;
+  background-position: -90 0; 
+}
+
+.logo3{
+  display: inline-block;
+  height: 40px;
+  width: 80px;
+  background: url('../img/footerlogo.png') no-repeat;
+  background-position: -205 0; 
+}
+
+.logo4{
+  display: inline-block;
+  height: 40px;
+  width: 70px;
+  background: url('../img/footerlogo.png') no-repeat;
+  background-position: -290 0; 
+}
+
+.logo5{
+  display: inline-block;
+  height: 40px;
+  width: 90px;
+  background: url('../img/footerlogo.png') no-repeat;
+  background-position: -360 0; 
+}
+
+.logo6{
+  display: inline-block;
+  height: 40px;
+  width: 75px;
+  background: url('../img/footerlogo.png') no-repeat;
+  background-position: -450 0; 
+}
+
+.logo7{
+  display: inline-block;
+  height: 40px;
+  width: 70px;
+  background: url('../img/footerlogo.png') no-repeat;
+  background-position: -525 0; 
+}
+
+.logo8{
+  display: inline-block;
+  height: 40px;
+  width: 90px;
+  background: url('../img/footerlogo.png') no-repeat;
+  background-position: -595 0; 
+}
+
+    /*---------FOOTER--------------*/
 
 .footer{
   margin:5px 45px;
