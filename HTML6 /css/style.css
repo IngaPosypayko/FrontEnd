@@ -113,13 +113,16 @@
 
 
 /*-------------------MENU-HEADER------------------*/
-
+.menu{
+  background-color: rgb(42, 46, 50);
+   margin:0 45px;
+   text-align: right;
+   padding: 0 20px;
+   margin-bottom: 5px;
+}
 
 .menu-header{
-  background-color: rgb(42, 46, 50);
-  margin:0 45px;
-  text-align: right;
-  margin-bottom: 5px;
+  display: inline-block;
 }
 
 .menu-header li {
@@ -127,7 +130,6 @@
   height: 30px;
   margin-right: 10px;
 }
-
 
 .menu-header a{
   display: block;
@@ -145,24 +147,22 @@
 }
 
 /*-------------------------KOSHYK-------------------------*/
-.menu{
-  display: inline-block;
-}
+
+
 .koshyk-all{
   display: inline-block;
 }
+
 .koshyk{
-padding: 0 10px 0 0;
-/*display: inline-block;*/
-font-size: 14px;
+  padding: 0 10px 0 0;
+  font-size: 14px;
   font-family: 'lsansiuni', 'Arial';
   font-weight: normal;
   text-decoration: none;
-  color: red;
-  }
+  color: #ffffff;
+}
 
 .iconkoshyk{
- /* display: inline-block;*/
   float: left;
   width: 25px;
   height: 20px;
@@ -177,7 +177,6 @@ font-size: 14px;
   position: relative;
   font-family: 'lsansiuni', 'Arial';
   font-weight: normal;
-
 }
 
 .left-container{
@@ -252,14 +251,14 @@ font-size: 14px;
   margin-left: 30px;
 }
 
-/*---------MAIN-SCREEN-CENTRAL-PART-------------*/
+/* ---------MAIN-SCREEN-CENTRAL-PART-------------*/
 
 .central-container{
   height: 625px;
   width: 525px;
   background: linear-gradient(to bottom, rgb(228, 231, 232) , rgb(193,205,210));
   border: 1px solid black;  
- float: left;
+  float: left;
 }
 
 .tire{
@@ -274,9 +273,9 @@ font-size: 14px;
 .imgbackground{
    height: 130px;
    width: 130px;
-  background: #ffffff;
-  padding: 2px 2px;
-  border-radius: 5px; 
+   background: #ffffff;
+   padding: 2px 2px;
+   border-radius: 5px; 
 }
 
 .tireimg{
@@ -284,114 +283,114 @@ font-size: 14px;
 }
 
 .brand{
-  color:rgb(32, 105,136);
-  font-size: 14px;
+   color:rgb(32, 105,136);
+   font-size: 14px;
 }
 
 .price{
-  color: rgb(12,50,86);
-  font-size: 16px;
-  font-style: italic;
+   color: rgb(12,50,86);
+   font-size: 16px;
+   font-style: italic;
 }
 
 /*------------MAIN-SCREEN-RIGHT-PART--------------*/
 
 .right-container{
-  height: 625px;
-  margin-right: 35px;
-  margin-left: 10px;
-  padding-top: 10px;
-  width: 190px;
-  float: right;
-  color: rgb(12, 50, 86);
+   height: 625px;
+   margin-right: 35px;
+   margin-left: 10px;
+   padding-top: 10px;
+   width: 190px;
+   float: right;
+   color: rgb(12, 50, 86);
 }
 
 .checkbox{
-  margin-left: 20px;
-  font-size: 13px;
-  margin-bottom: 5px;
+   margin-left: 20px;
+   font-size: 13px;
+   margin-bottom: 5px;
 }
 
     /*---------FOOTER LOGO--------------*/
 .logo-footer{
-  margin: 15px auto;
+   margin: 15px auto;
 }
 
 .logo1{
-  margin-left: 160px;
-  display: inline-block;
-  height: 40px;
-  width: 90px;
-  background: url('../img/footerlogo.png') no-repeat;
-  background-position: 0 0; 
+   margin-left: 160px;
+   display: inline-block;
+   height: 40px;
+   width: 90px;
+   background: url('../img/footerlogo.png') no-repeat;
+   background-position: 0 0; 
 }
 
 .logo2{
-  display: inline-block;
-  height: 40px;
-  width: 115px;
-  background: url('../img/footerlogo.png') no-repeat;
-  background-position: -90 0; 
+   display: inline-block;
+   height: 40px;
+   width: 115px;
+   background: url('../img/footerlogo.png') no-repeat;
+   background-position: -90 0; 
 }
 
 .logo3{
-  display: inline-block;
-  height: 40px;
-  width: 80px;
-  background: url('../img/footerlogo.png') no-repeat;
-  background-position: -205 0; 
+   display: inline-block;
+   height: 40px;
+   width: 80px;
+   background: url('../img/footerlogo.png') no-repeat;
+   background-position: -205 0; 
 }
 
 .logo4{
-  display: inline-block;
-  height: 40px;
-  width: 70px;
-  background: url('../img/footerlogo.png') no-repeat;
-  background-position: -290 0; 
+   display: inline-block;
+   height: 40px;
+   width: 70px;
+   background: url('../img/footerlogo.png') no-repeat;
+   background-position: -290 0; 
 }
 
 .logo5{
-  display: inline-block;
-  height: 40px;
-  width: 90px;
-  background: url('../img/footerlogo.png') no-repeat;
-  background-position: -360 0; 
+   display: inline-block;
+   height: 40px;
+   width: 90px;
+   background: url('../img/footerlogo.png') no-repeat;
+   background-position: -360 0; 
 }
 
 .logo6{
-  display: inline-block;
-  height: 40px;
-  width: 75px;
-  background: url('../img/footerlogo.png') no-repeat;
-  background-position: -450 0; 
+   display: inline-block;
+   height: 40px;
+   width: 75px;
+   background: url('../img/footerlogo.png') no-repeat;
+   background-position: -450 0; 
 }
 
 .logo7{
-  display: inline-block;
-  height: 40px;
-  width: 70px;
-  background: url('../img/footerlogo.png') no-repeat;
-  background-position: -525 0; 
+   display: inline-block;
+   height: 40px;
+   width: 70px;
+   background: url('../img/footerlogo.png') no-repeat;
+   background-position: -525 0; 
 }
 
 .logo8{
-  display: inline-block;
-  height: 40px;
-  width: 90px;
-  background: url('../img/footerlogo.png') no-repeat;
-  background-position: -595 0; 
+   display: inline-block;
+   height: 40px;
+   width: 90px;
+   background: url('../img/footerlogo.png') no-repeat;
+   background-position: -595 0; 
 }
 
     /*---------FOOTER--------------*/
 
 .footer{
-  margin:5px 45px;
-  background-color: rgb(33, 58, 77);
-  height: 80px;
-  text-align: center;
-  font-family: 'Arial';
-  font-weight: normal;
-}
+   margin:5px 45px;
+   background-color: rgb(33, 58, 77);
+   height: 80px;
+   text-align: center;
+   font-family: 'Arial';
+   font-weight: normal;
+}  
 
 .menu-footer li {
   display: inline-block;
