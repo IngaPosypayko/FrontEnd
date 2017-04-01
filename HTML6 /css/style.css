@@ -36,20 +36,23 @@
 }
 
 .phone{
-  font-size: 16px;
+  font-size: 17px;
   height: 24px;
   display: table-cell;
   vertical-align: middle;
   color:rgb(121,135,141);
+  letter-spacing: 1.1;
+  padding-left: 6px;
 }
 
 /*-----------------TOP-MENU-CENTRAL----------------*/
 
 .top-menu-central{
-  background-color: blue;
+  background-color: rgb(33, 58, 77);
   display: inline-block;
   vertical-align: middle;
-  margin-left: 20px;
+  margin: -5px 0 0 11px;
+  border-radius: 5px;
 }
 
 .iconman{
@@ -58,6 +61,17 @@
   height: 25px;
   background: url('../img/sprite.png') no-repeat;
   background-position: -27px 0 ; 
+  margin: 0 -5px 0 -2px;
+}
+
+.input1{
+width:113px;
+padding-left: 5px;
+}
+
+.input2{
+width:113px;
+padding-left: 5px;
 }
 
 .login{
@@ -71,17 +85,22 @@
   text-decoration: none;
   color: #ffffff;
   font-size: 12px;
+}
+
+.registration{
   padding: 0 5px;
 }
 
 .enter{
   border-right: 1px solid #ffffff;
+  padding: 0 5px 0 8px;
 }
 
 .forget-password{
   color:#ffffff;
   font-size: 12px;
-  padding: 0 10px;
+  padding: 0 0 0 14px;
+  letter-spacing: 1.1;
 }
 
 /*------------------TOP-MENU-RIGHT---------------*/
@@ -100,15 +119,16 @@
   background-position: -47 4;
   border:1px solid rgb(121,135,141);
   border-radius: 10px;
-  padding: 5px;
+  padding: 4px 6px 4px 5px;
+  margin: -3px 0 0 -5px;
 }
 
 /*----------------MAIN-PICTURE---------------------*/
 
 .main-picture{ 
   width: 910px;
-  height: 235px;
-  margin:5px 45px;
+  height: 237px;
+  margin:-2px 45px 5px 45px;
 }
 
 
@@ -116,19 +136,36 @@
 .menu{
   background-color: rgb(42, 46, 50);
    margin:0 45px;
-   text-align: right;
-   padding: 0 20px;
+   /*text-align: right;*/
+   /*padding: 0 20px;*/
    margin-bottom: 5px;
 }
 
 .menu-header{
   display: inline-block;
+  margin-left: 139px;
 }
 
 .menu-header li {
   display: inline-block;
   height: 30px;
-  margin-right: 10px;
+  padding-top: 2px;
+}
+
+.li1{
+ margin-right: 10px; 
+}
+
+.li2{
+ margin-right: 8px; 
+}
+
+.li3{
+ margin-right: 7px; 
+}
+
+.li5{
+ margin-right: 50px; 
 }
 
 .menu-header a{
@@ -154,12 +191,22 @@
 }
 
 .koshyk{
-  padding: 0 10px 0 0;
-  font-size: 14px;
+  padding: 0 10px 0 5px;
+  font-size: 12px;
   font-family: 'lsansiuni', 'Arial';
   font-weight: normal;
   text-decoration: none;
   color: #ffffff;
+}
+
+.koshyk1:after{
+  content: '0';
+  color: rgb(33, 58, 77);
+}
+
+.koshyk2:after{
+  content: '0.00 грн.';
+  color: rgb(33, 58, 77);
 }
 
 .iconkoshyk{
@@ -215,7 +262,7 @@
 .border-h1{
   border: 1px solid rgb(121,135,141);
   border-radius: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 14px;
   margin-right: 5px;
 }
 
@@ -223,6 +270,7 @@
   border: 1px solid rgb(121,135,141);
   border-radius: 10px;
   margin-right: 40px;
+  padding-left: 3px
 }
 
 
@@ -233,8 +281,9 @@
 
 .list1 a{
   text-decoration: none; 
-  font-size: 14px;
+  font-size: 13px;
   color: rgb(12, 50, 86);
+  letter-spacing: 0.1;
 }
 
 .list1 li :hover{
@@ -251,14 +300,29 @@
   margin-left: 30px;
 }
 
+.left-li-1-1{
+  margin:0 0 10px 0;
+}
+
+.left-li-1-2, .left-li-1-3, .left-li-2-3, .left-li-2-1, .left-li-2-2{
+  margin:0 0 8px 0;
+}
+
+.left-li-1-4, .left-li-2-4{
+  margin:0 0 1px 0;
+}
+
+
 /* ---------MAIN-SCREEN-CENTRAL-PART-------------*/
 
 .central-container{
-  height: 625px;
+  height: 615px;
   width: 525px;
   background: linear-gradient(to bottom, rgb(228, 231, 232) , rgb(193,205,210));
   border: 1px solid black;  
   float: left;
+  margin-top: 10px;
+  padding-top: 5px;
 }
 
 .tire{
@@ -267,15 +331,38 @@
   width: 170px;
   border-radius: 5px;
   text-align: center; 
-  margin:10px 0;  
 }
 
 .imgbackground{
-   height: 130px;
+   height: 120px;
    width: 130px;
    background: #ffffff;
    padding: 2px 2px;
    border-radius: 5px; 
+}
+
+.img1{
+  margin: 5px 0 26px 5px;
+}
+
+.img2, .img3{
+  margin: 5px 0 26px -5px;
+}
+
+.img4{
+  margin: 5px 0 25px 5px;
+}
+
+.img5, .img6{
+  margin: 5px 0 25px -5px;
+}
+
+.img7{
+  margin: 10px 0 10px 5px;
+}
+
+.img8, .img9{
+  margin: 10px 0 10px -5px;
 }
 
 .tireimg{
@@ -287,33 +374,79 @@
    font-size: 14px;
 }
 
+.description{
+  font-size: 14px;
+}
+
 .price{
    color: rgb(12,50,86);
    font-size: 16px;
    font-style: italic;
+   margin-top: 5px;
+   margin-left: 10px;
 }
+
+
 
 /*------------MAIN-SCREEN-RIGHT-PART--------------*/
 
 .right-container{
    height: 625px;
-   margin-right: 35px;
-   margin-left: 10px;
-   padding-top: 10px;
+   margin-right: 40px;
+   padding-top: 8px;
    width: 190px;
    float: right;
    color: rgb(12, 50, 86);
 }
 
+.border-h2-tire{
+  margin: 0 45px 0 15px;
+  padding: 3px 0 0 3px;
+  border: 1px solid rgb(121,135,141);
+  border-radius: 10px;
+}
+
+.border-h2-disks{
+  margin: 0 45px 10px 15px;
+  padding: 3px 0 0 3px;
+  border: 1px solid rgb(121,135,141);
+  border-radius: 10px;
+}
+
+.list1-checkbox{
+  margin: 5px 0 0 10px;
+  list-style-type: none;
+}
+
+.list1-checkbox li{
+  margin: 0 0 0 -5px;
+}
+
 .checkbox{
    margin-left: 20px;
    font-size: 13px;
-   margin-bottom: 5px;
+   letter-spacing: 0.9;
+}
+
+.checkbox1-1, .checkbox1-2{
+   margin-bottom: 10px;
+}
+
+.checkbox1-3{
+   margin-bottom: 13px;
+}
+
+.submit{
+  color: white;
+  background: rgb(33, 58, 77);
+  padding: 5px 15px 5px 17px;
+  border-radius: 15px;
+  margin:5px 0 0 10px;
 }
 
     /*---------FOOTER LOGO--------------*/
 .logo-footer{
-   margin: 15px auto;
+   margin: 35px auto 15px auto;
 }
 
 .logo1{
@@ -339,6 +472,7 @@
    width: 80px;
    background: url('../img/footerlogo.png') no-repeat;
    background-position: -205 0; 
+   margin-left: -5px;
 }
 
 .logo4{
@@ -354,7 +488,8 @@
    height: 40px;
    width: 90px;
    background: url('../img/footerlogo.png') no-repeat;
-   background-position: -360 0; 
+   background-position: -360 0;
+   margin-left: -2px; 
 }
 
 .logo6{
@@ -363,6 +498,7 @@
    width: 75px;
    background: url('../img/footerlogo.png') no-repeat;
    background-position: -450 0; 
+   margin-left: -4px;
 }
 
 .logo7{
@@ -371,6 +507,7 @@
    width: 70px;
    background: url('../img/footerlogo.png') no-repeat;
    background-position: -525 0; 
+   margin-left: -5px;
 }
 
 .logo8{
@@ -379,14 +516,15 @@
    width: 90px;
    background: url('../img/footerlogo.png') no-repeat;
    background-position: -595 0; 
+    margin-left: -5px;
 }
 
     /*---------FOOTER--------------*/
 
 .footer{
-   margin:5px 45px;
+   margin:-5px 45px 0 45px;
    background-color: rgb(33, 58, 77);
-   height: 80px;
+   height: 100px;
    text-align: center;
    font-family: 'Arial';
    font-weight: normal;
@@ -395,6 +533,7 @@
 .menu-footer li {
   display: inline-block;
   margin: 13px 0;
+  padding: 0 1px 0 0;
 }
 
 .menu-footer a{
