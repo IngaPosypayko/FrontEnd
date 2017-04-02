@@ -100,13 +100,18 @@ float: left;
 }
 
 /****************SECTION 2 ABOUT COMPANY*************************/
+.layout-about-company{
+  margin: 0 auto;
+  width:320px;
+}
 
 .about-company{
-  width:320px;
+ /* width:320px;*/
 	height: 550px;
 	border: 1px solid rgba(250, 250, 250, 0.1);
   background: linear-gradient(to top, rgb(51, 37, 58), rgb(116, 80, 131));
   padding: 45px 0 0 0 ;
+   margin: 0 auto;
 }
 
 .header2-1{
@@ -121,12 +126,10 @@ float: left;
 	text-decoration: none;
 }
 
-.about-company{
-  margin: 0 auto;
-}
 
 .block{
   margin: 5px 0 0 30px;
+  width: 320px;
 }
 
 .block2{
@@ -154,7 +157,7 @@ float: left;
 .readmore1{
   clear: both;	
   margin: 17px 0 0 210px;
-  width: 320px;	
+  /*width: 320px;	*/
   font-family: 'Gothic', 'Arial';
   font-size: 18px;
   color:white;

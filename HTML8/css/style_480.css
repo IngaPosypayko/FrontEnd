@@ -21,10 +21,15 @@
 /****************SECTION 1*************************/
 
 .header{
-	height: 515px;
+	height: 547px;
 	background: url('../img/bg1.png') no-repeat center top;
 	border: 1px solid black;
 	text-align: center;	
+}
+
+.layout-header{
+  width: 480px;
+  margin: 0 auto;
 }
 
 .header-logo{
@@ -47,7 +52,8 @@
 }
 
 
-.menu-header-320-p{
+.menu-header-320{
+  display: none;
 	width:50px;
 	font-size: 24px;
 	font-family: 'Gothic', 'Arial';
@@ -56,25 +62,62 @@
 	border-bottom: 1px solid rgb(237, 191, 255);
 }
 
-.iphone{
-  display: none;
+.menu-header-320-a{
+  text-decoration: none;
 }
 
 .menu-header-vertical-menu{
-  display: none;
+  position: relative;
+  top:-420px;
+  right:-585px;
+  background: rgba(116, 80, 131, 0.7);
+  height: 260px;
+  width: 250px;
+ /* margin: -115px 0 0 -115px;*/
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  z-index: 2;
 }
 
-.menu-header-320-a{
-	text-decoration: none;
+
+.menu-top{
+  list-style-type: none;
 }
 
-/*.lorem-full{
-float: left;
-  width: 30px;
-  height: 40px;
-  background: url('../img/sprite2.png') no-repeat;
-  background-position: 0 0 ;
-}*/
+.menu-top li{
+margin: 14px 0;
+}
+
+.menu-top a{
+  color: white;
+  font-family: 'Gothic', 'Arial';
+  font-size: 24px;
+  text-decoration: none;
+  list-style-type: none;
+  margin: 5px 0;
+}
+
+.menu-top-li{
+border-bottom: 2px solid rgb(237, 191, 255);
+}
+
+.menu-top-a{
+border-bottom: 2px solid rgb(237, 191, 255);
+}
+
+.iphone{
+  float: right;
+  background: url('../img/iphone.png') no-repeat 80%;
+height: 260px;
+width: 220px;
+margin: -155px 35px 0 0; 
+}
+
+.lorem-full{
+  text-align: left;
+  margin: 170px 0 0 50px;
+}
 
 .lorem-1{
   margin: 120px 0 0 -10px ;
@@ -96,17 +139,21 @@ float: left;
   height: 50px;
   background: url('../img/sprite2.png') no-repeat center;
   background-position: 0 -75px;
-  margin:75px auto 0 auto;
+  margin:175px auto 0 auto;
 }
 
 /****************SECTION 2 ABOUT COMPANY*************************/
+.layout-about-company{
+  margin: 0 auto;
+  width:480px;
+}
 
 .about-company{
-  width:320px;
-	height: 550px;
+ /* width:320px;*/
+	height: 545px;
 	border: 1px solid rgba(250, 250, 250, 0.1);
   background: linear-gradient(to top, rgb(51, 37, 58), rgb(116, 80, 131));
-  padding: 45px 0 0 0 ;
+  padding: 55px 0 0 0 ;
 }
 
 .header2-1{
@@ -121,16 +168,14 @@ float: left;
 	text-decoration: none;
 }
 
-.about-company{
-  margin: 0 auto;
-}
 
 .block{
-  margin: 5px 0 0 30px;
+  margin: 5px 0 0 35px;
+  /*width: 320px;*/
 }
 
 .block2{
-  margin-top: 35px;
+  margin-top: 25px;
 }
 
 .icon1{
@@ -142,19 +187,20 @@ float: left;
 }
 
 .text2{
-  width:200px;
+  width:365px;
   font-size: 16px;
   font-weight: "100";
   color:white;
-  margin:5px 0 0 53px;
+  margin:2px 0 0 53px;
   padding: 0 10px 0 0;
   font-family: 'OpenSans', 'Arial';
+  word-break: break-all;
 }
 
 .readmore1{
   clear: both;	
-  margin: 17px 0 0 210px;
-  width: 320px;	
+  margin: 17px 0 0 370px;
+  /*width: 320px;	*/
   font-family: 'Gothic', 'Arial';
   font-size: 18px;
   color:white;
@@ -166,7 +212,7 @@ float: left;
 
 /****************SECTION 3 Pingbuller photo*************************/
 .section3{
-  width: 320px;
+  width: 480px;
   height: 400px;
   background: rgb(259, 259, 259);
   border: 1px solid rgba(250, 250, 250, 0.1);
@@ -177,9 +223,9 @@ float: left;
 .background{
   background: rgb(250, 250,250);
   height: 270px;
-  width: 255px;
+  width: 420px;
   /*border: 1px solid black; */
-  margin: 72px 0 0 45px;
+  margin: 65px 0 0 45px;
 }
 
 .photo{
@@ -187,25 +233,26 @@ float: left;
   width: 50px;
   height: 65px;
   background: url('../img/photo.png') no-repeat ;
-  margin:15px 0 0 -25px;
+  margin:19px 0 0 -22px;
 }
 
 .header3-1{
+  display: inline-block;
   font-family: 'Gothic', 'Arial';
-  font-size: 24px;
-  margin: 0 0 0 35px;
+  font-size: 28px;
+  margin: 5 0 0 17px;
   padding-top: 21px;
 }
 
 .header3-2-1{
-  margin: 0 0 0 35px;	
+  margin: 0 0 0 6px;	
   font-family: 'Gothic', 'Arial';
-  font-size: 24px;
+  font-size: 28px;
   color:rgb(237, 191, 255);
 }
 
 .header3-2{
-  display: block;
+  display: inline-block;
   text-decoration: none;
   margin-top: -3px;
 }
@@ -214,8 +261,8 @@ float: left;
   font-size: 16px;
   font-weight: "100";
   color:black;
-  margin:2px 0 0 37px;
-  width: 180px;
+  margin:13px 0 0 40px;
+  width: 350px;
   font-family: 'OpenSans', 'Arial';
   word-wrap: break-word;
   line-height: 1.5;
@@ -224,7 +271,7 @@ float: left;
 /****************SECTION 4 RECENT UPDATES************************/
 
 .recent-update{
-  width: 320px;
+  width: 480px;
   height: 382px;
   background: rgb(259, 259, 259);
   border: 1px solid rgba(250, 250, 250, 0.1);
@@ -239,19 +286,19 @@ float: left;
   color:black;
   padding: 0 0 0 22px;
   letter-spacing: 0.7;
-  margin-top: 28px;
+  margin: 24px 0 0 65px;
 }
 
 .block4-1{
-  margin:0 0 0 15px;
+  margin:0 0 0 80px;
 }
 
 .block4-2{
-  margin:2px 0 0 15px;
+  margin:2px 0 0 80px;
 }
 
 .block4-3{
-  margin:0 0 0 15px;
+  margin:0 0 0 80px;
 }
 
 .header4{
@@ -290,7 +337,7 @@ float: left;
 
 .moreblogs1{
   clear: both;  
-  margin: 18px 0 0 208px;
+  margin: 18px 0 0 105px;
   width: 320px; 
   font-family: 'Gothic', 'Arial';
   font-size: 18px;
@@ -299,6 +346,7 @@ float: left;
 
 .moreblogs{
   text-decoration: none;
+  text-align: right;
 }
 
 .icon4{
@@ -324,20 +372,20 @@ float: left;
 
 /****************SECTION 5 LOGO*************************/
 .logo-wrapper{
-  height: 420px;
-  background: rgb(249, 249, 249);
+  height: 230px;
+  background: rgb(259, 259, 259);
   border: 1px solid rgba(250, 250, 250, 0.1);
   border-bottom: 1px solid rba(259, 259, 259);
 }
 
 .logo{
-  width: 320px;
+  width: 480px;
   margin: 0 auto;
 }
 
 .logo1{
   background: url('../img/logo/logo1.png') no-repeat;
-  margin: 50px 11px 0 65px;
+  margin: 35px 11px 0 85px;
   display: inline-block;
   height: 75px;
   width:75px;
@@ -345,7 +393,7 @@ float: left;
 
 .logo2{
   background: url('../img/logo/logo2.png') no-repeat;
-  margin: 50px 11px 0 35px;
+  margin: 35px 11px 0 35px;
   display: inline-block;
   height: 75px;
   width:75px;
@@ -353,7 +401,7 @@ float: left;
 
 .logo3{
   background: url('../img/logo/logo3.png') no-repeat;
-  margin: 50px 11px 0 70px;
+  margin: 35px 11px 0 35px;
   display: inline-block;
   height: 75px;
   width:75px;
@@ -361,7 +409,7 @@ float: left;
 
 .logo4{
   background: url('../img/logo/logo4.png') no-repeat;
-  margin: 50px 11px 0 40px;
+  margin: 1px 11px 25px 70px;
   display: inline-block;
   height: 75px;
   width:75px;
@@ -369,7 +417,7 @@ float: left;
 
 .logo5{
   background: url('../img/logo/logo5.png') no-repeat;
-  margin: 50px 11px 0 40px;
+  margin: 1px 11px 0 23px;
   display: inline-block;
   height: 75px;
   width:75px;
@@ -377,32 +425,117 @@ float: left;
 
 .logo6{
   background: url('../img/logo/logo6.png') no-repeat;
-  margin: 0 11px 20px 75px;
+  margin: 15px 11px 20px 65px;
   display: inline-block;
   height: 75px;
   width:75px;
 }
 
-/****************SECTION 6 FOOTER*************************/
+/****************SECTION 7 FOOTER TOP*************************/
 .footer-top{
-  display:none;
+  background: rgb(249, 249, 249);
+  height: 665px;
+  border: 1px solid rgba(250, 250, 250, 0.1);
+  border-bottom: 1px solid rba(259, 259, 259);
+}
+
+.layout-new-category{
+  margin: 0 auto;
+  width:480px;
+}
+
+.block-new-category-1{
+margin: 74px 0 0 19px;
+}
+
+.block-new-category-2{
+margin: 57px 0 0 19px;
+}
+
+.block-new-category-3{
+margin: 63px 0 0 19px;
+}
+
+.header-new-category{
+  display: block;
+  text-decoration: none;
+  margin:15px 0 0 0 ;
+}
+
+.header-new-category-1{ 
+  font-family: 'Gothic', 'Arial';
+  font-size: 24px;
+  font-weight: 800;
+  color:black;
+  letter-spacing: 0.1;
+}
+
+.text-new-category{
+  font-size: 16px;
+  font-weight: "100";
+  color:black;
+  margin:11px 0 0 0;
+  padding: 0 10px 0 0;
+  font-family: 'OpenSans', 'Arial';
+}
+/****************SECTION 6 FOOTER*************************/
+.layout-footer-bottom{
+  margin: 0 auto;
+  width:480px;
 }
 
 .footer-bottom{
-  /*width: 2400px;*/
   height: 190px;
   background: rgb(249, 249, 249);
   border: 1px solid rgba(250, 250, 250, 0.1);
   background: url('../img/bg2.png') no-repeat;
 }
 
-.text6{
+.text-sign{
   font-size: 10px;
   color:white;
   text-align: center;
-  margin-top: 42px;
+  margin-top: 33px;
   font-family: 'OpenSans', 'Arial';
   letter-spacing: 1.5;
+}
+
+.menu-footer{
+margin: 44px 0 0 15px;
+}
+
+.menu-footer li{
+  display: inline-block;
+}
+
+.menu-footer-li1{
+  margin: 0 0 0 8px ;
+}
+
+.menu-footer-li2{
+  margin: 0 0 0 20px ;
+}
+
+.menu-footer-li3{
+  margin: 0 0 0 23px ;
+}
+
+.menu-footer-li4{
+  margin: 0 0 0 23px ;
+}
+
+.menu-footer-li5{
+  margin: 0 0 0 25px ;
+}
+
+.menu-footer-li6{
+  margin: 0 0 0 25px ;
+}
+.menu-footer a{
+  color: white;
+  font-family: 'Gothic', 'Arial';
+  font-size: 19px;
+  text-decoration: none;
 }
 
 
