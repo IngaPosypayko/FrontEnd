@@ -1,0 +1,543 @@
+
+
+/*@media only screen and (max-width:320px){ */
+
+  
+@font-face {
+  font-family: Gothic; 
+  src: url('../fonts/LGothic.otf'); 
+}
+
+@font-face {
+  font-family: OpenSans; 
+  src: url('../fonts/OpenSans-Light.ttf'); 
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/****************SECTION 1*************************/
+
+.header{
+	height: 547px;
+	background: url('../img/bg1.png') no-repeat center top;
+	border: 1px solid black;
+	text-align: center;	
+}
+
+.layout-header{
+  width: 480px;
+  margin: 0 auto;
+}
+
+.header-logo{
+	font-size: 48px;
+	font-family: 'Gothic', 'Arial';
+	color:white;
+	margin-top: 60px;
+}
+
+.header-logo1{
+	text-decoration: none;
+}
+
+.ER{
+  color: rgb(116, 80, 131);
+}
+
+.header-horisontal-menu{
+  display: none;
+}
+
+
+.menu-header-320{
+  display: none;
+	width:50px;
+	font-size: 24px;
+	font-family: 'Gothic', 'Arial';
+	color:white;
+	margin: 25px auto;
+	border-bottom: 1px solid rgb(237, 191, 255);
+}
+
+.menu-header-320-a{
+  text-decoration: none;
+}
+
+.menu-header-vertical-menu{
+  position: relative;
+  top:-390px;
+  right:-110px;
+  background: rgba(116, 80, 131, 0.7);
+  height: 260px;
+  width: 250px;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  z-index: 2;
+}
+
+
+.menu-top{
+  list-style-type: none;
+}
+
+.menu-top li{
+margin: 14px 0;
+}
+
+.menu-top a{
+  color: white;
+  font-family: 'Gothic', 'Arial';
+  font-size: 24px;
+  text-decoration: none;
+  list-style-type: none;
+  margin: 5px 0;
+}
+
+.menu-top-li{
+border-bottom: 2px solid rgb(237, 191, 255);
+}
+
+.menu-top-a{
+border-bottom: 2px solid rgb(237, 191, 255);
+}
+
+.iphone{
+  float: right;
+margin: -155px 30px 0 0; 
+}
+
+.img-iphone{
+  height: 300px;
+}
+  
+
+.lorem-full{
+  text-align: left;
+  margin: 170px 0 0 50px;
+}
+
+.lorem-1{
+  margin: 120px 0 0 -10px ;
+  font-family: 'Gothic', 'Arial';
+  color:white;
+  font-size: 36px;
+}
+
+.lorem-2{
+  margin: -5px 0 0 5px ;
+  font-family: 'Gothic', 'Arial';
+  color:rgb(237, 191, 255);
+  font-size: 18px;
+}
+
+.radio-buttons{
+  text-align: center;
+  width: 90px;
+  height: 50px;
+  background: url('../img/sprite2.png') no-repeat center;
+  background-position: 0 -75px;
+  margin:125px auto 0 auto;
+}
+
+/****************SECTION 2 ABOUT COMPANY*************************/
+.layout-about-company{
+  margin: 0 auto;
+  width:480px;
+}
+
+.about-company{
+ /* width:320px;*/
+	height: 545px;
+	border: 1px solid rgba(250, 250, 250, 0.1);
+  background: linear-gradient(to top, rgb(51, 37, 58), rgb(116, 80, 131));
+  padding: 55px 0 0 0 ;
+}
+
+.header2-1{
+  margin: 22px 0 0 53px;	
+  font-family: 'Gothic', 'Arial';
+  font-size: 24px;
+  color:white;
+}
+
+.header2{
+  display: block;
+	text-decoration: none;
+}
+
+
+.block{
+  margin: 5px 0 0 35px;
+  /*width: 320px;*/
+}
+
+.block2{
+  margin-top: 25px;
+}
+
+.icon1{
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url('../img/sprite1.png') no-repeat;
+  background-position: 0 0 ;
+}
+
+.text2{
+  width:365px;
+  font-size: 16px;
+  font-weight: "100";
+  color:white;
+  margin:2px 0 0 53px;
+  padding: 0 10px 0 0;
+  font-family: 'OpenSans', 'Arial';
+  word-break: break-all;
+}
+
+.readmore1{
+  clear: both;	
+  margin: 17px 0 0 370px;
+  /*width: 320px;	*/
+  font-family: 'Gothic', 'Arial';
+  font-size: 18px;
+  color:white;
+}
+
+.readmore{
+  text-decoration: none;
+}
+
+/****************SECTION 3 Pingbuller photo*************************/
+.section3{
+  width: 480px;
+  height: 400px;
+  background: rgb(259, 259, 259);
+  border: 1px solid rgba(250, 250, 250, 0.1);
+  margin:0 auto;
+  /*border: 1px solid black;*/
+}
+
+.background{
+  background: rgb(250, 250,250);
+  height: 270px;
+  width: 420px;
+  /*border: 1px solid black; */
+  margin: 65px 0 0 45px;
+}
+
+.photo{
+  float: left;	
+  width: 50px;
+  height: 65px;
+  background: url('../img/photo.png') no-repeat ;
+  margin:19px 0 0 -22px;
+}
+
+.header3-1{
+  display: inline-block;
+  font-family: 'Gothic', 'Arial';
+  font-size: 28px;
+  margin: 5 0 0 17px;
+  padding-top: 21px;
+}
+
+.header3-2-1{
+  margin: 0 0 0 6px;	
+  font-family: 'Gothic', 'Arial';
+  font-size: 28px;
+  color:rgb(237, 191, 255);
+}
+
+.header3-2{
+  display: inline-block;
+  text-decoration: none;
+  margin-top: -3px;
+}
+
+.text3{	
+  font-size: 16px;
+  font-weight: "100";
+  color:black;
+  margin:13px 0 0 40px;
+  width: 350px;
+  font-family: 'OpenSans', 'Arial';
+  word-wrap: break-word;
+  line-height: 1.5;
+}
+
+/****************SECTION 4 RECENT UPDATES************************/
+
+.recent-update{
+  width: 480px;
+  height: 382px;
+  background: rgb(259, 259, 259);
+  border: 1px solid rgba(250, 250, 250, 0.1);
+  border-bottom: 1px solid rba(259, 259, 259);
+  margin: 0 auto;
+}
+
+.title{
+  font-family: 'Gothic', 'Arial';
+  font-size: 28px;
+  font-weight: "100";
+  color:black;
+  padding: 0 0 0 22px;
+  letter-spacing: 0.7;
+  margin: 24px 0 0 65px;
+}
+
+.block4-1{
+  margin:0 0 0 80px;
+}
+
+.block4-2{
+  margin:2px 0 0 80px;
+}
+
+.block4-3{
+  margin:0 0 0 80px;
+}
+
+.header4{
+  display: block;
+  text-decoration: none;
+}
+
+.header4-1{ 
+  font-family: 'OpenSans', 'Arial';
+  font-size: 16px;
+  font-weight: 800;
+  color:black;
+  letter-spacing: 1.1;
+}
+
+.header4-1-1{
+  margin: 16px 0 0 75px;  
+}
+
+.header4-1-2{
+  margin: 18px 0 0 75px;  
+}
+
+.header4-1-3{
+  margin: 25px 0 0 75px;  
+}
+
+.text4{
+  font-size: 16px;
+  font-weight: "100";
+  color:black;
+  margin:2px 0 0 55px;
+  padding: 0 10px 0 0;
+  font-family: 'OpenSans', 'Arial';
+}
+
+.moreblogs1{
+  clear: both;  
+  margin: 18px 0 0 105px;
+  width: 320px; 
+  font-family: 'Gothic', 'Arial';
+  font-size: 18px;
+  color:black;
+}
+
+.moreblogs{
+  text-decoration: none;
+  text-align: right;
+}
+
+.icon4{
+  float: left;
+  width: 70px;
+  height: 60px;
+}
+
+.icon4-1{
+  background: url('../img/sprite.png') no-repeat;
+  background-position: 5px 0 ;
+}
+
+.icon4-2{
+  background: url('../img/sprite.png') no-repeat;
+  background-position: 5px -68px ;
+}
+
+.icon4-3{
+  background: url('../img/sprite.png') no-repeat;
+  background-position: 5px -134px ;
+}
+
+/****************SECTION 5 LOGO*************************/
+.logo-wrapper{
+  height: 230px;
+  background: rgb(259, 259, 259);
+  border: 1px solid rgba(250, 250, 250, 0.1);
+  border-bottom: 1px solid rba(259, 259, 259);
+}
+
+.logo{
+  width: 480px;
+  margin: 0 auto;
+}
+
+.logo1{
+  background: url('../img/logo/logo1.png') no-repeat;
+  margin: 35px 11px 0 85px;
+  display: inline-block;
+  height: 75px;
+  width:75px;
+}
+
+.logo2{
+  background: url('../img/logo/logo2.png') no-repeat;
+  margin: 35px 11px 0 35px;
+  display: inline-block;
+  height: 75px;
+  width:75px;
+}
+
+.logo3{
+  background: url('../img/logo/logo3.png') no-repeat;
+  margin: 35px 11px 0 35px;
+  display: inline-block;
+  height: 75px;
+  width:75px;
+}
+
+.logo4{
+  background: url('../img/logo/logo4.png') no-repeat;
+  margin: 1px 11px 25px 70px;
+  display: inline-block;
+  height: 75px;
+  width:75px;
+}
+
+.logo5{
+  background: url('../img/logo/logo5.png') no-repeat;
+  margin: 1px 11px 0 23px;
+  display: inline-block;
+  height: 75px;
+  width:75px;
+}
+
+.logo6{
+  background: url('../img/logo/logo6.png') no-repeat;
+  margin: 15px 11px 20px 65px;
+  display: inline-block;
+  height: 75px;
+  width:75px;
+}
+
+/****************SECTION 7 FOOTER TOP*************************/
+.footer-top{
+  background: rgb(249, 249, 249);
+  height: 665px;
+  border: 1px solid rgba(250, 250, 250, 0.1);
+  border-bottom: 1px solid rba(259, 259, 259);
+}
+
+.layout-new-category{
+  margin: 0 auto;
+  width:480px;
+}
+
+.block-new-category-1{
+margin: 74px 0 0 19px;
+}
+
+.block-new-category-2{
+margin: 57px 0 0 19px;
+}
+
+.block-new-category-3{
+margin: 63px 0 0 19px;
+}
+
+.header-new-category{
+  display: block;
+  text-decoration: none;
+  margin:15px 0 0 0 ;
+}
+
+.header-new-category-1{ 
+  font-family: 'Gothic', 'Arial';
+  font-size: 24px;
+  font-weight: 800;
+  color:black;
+  letter-spacing: 0.1;
+}
+
+.text-new-category{
+  font-size: 16px;
+  font-weight: "100";
+  color:black;
+  margin:11px 0 0 0;
+  padding: 0 10px 0 0;
+  font-family: 'OpenSans', 'Arial';
+}
+/****************SECTION 6 FOOTER*************************/
+.layout-footer-bottom{
+  margin: 0 auto;
+  width:480px;
+}
+
+.footer-bottom{
+  height: 190px;
+  background: rgb(249, 249, 249);
+  border: 1px solid rgba(250, 250, 250, 0.1);
+  background: url('../img/bg2.png') no-repeat;
+}
+
+.text-sign{
+  font-size: 10px;
+  color:white;
+  text-align: center;
+  margin-top: 33px;
+  font-family: 'OpenSans', 'Arial';
+  letter-spacing: 1.5;
+}
+
+.menu-footer{
+margin: 44px 0 0 15px;
+}
+
+.menu-footer li{
+  display: inline-block;
+}
+
+.menu-footer-li1{
+  margin: 0 0 0 8px ;
+}
+
+.menu-footer-li2{
+  margin: 0 0 0 20px ;
+}
+
+.menu-footer-li3{
+  margin: 0 0 0 23px ;
+}
+
+.menu-footer-li4{
+  margin: 0 0 0 23px ;
+}
+
+.menu-footer-li5{
+  margin: 0 0 0 25px ;
+}
+
+.menu-footer-li6{
+  margin: 0 0 0 25px ;
+}
+.menu-footer a{
+  color: white;
+  font-family: 'Gothic', 'Arial';
+  font-size: 19px;
+  text-decoration: none;
+}
+
+
+
