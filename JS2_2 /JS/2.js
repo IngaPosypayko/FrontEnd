@@ -1,16 +1,24 @@
- var arr=[];
+
+
+
+var arr=[];
  for (var i=0; i<5; i++){
  arr[i]=prompt('Please, enter the name!');
 }
-
-var userName=prompt('Please, enter a user name!');
-
+ console.log(arr);
 var flag=false;
-for (var i=0; (i<5)&(flag==false); i++){
-if (arr[i]==userName) {
-     alert ('Hello, '+ userName);
-     flag=true;
-     }  
-}
+var userName=prompt('Please, enter a user name!');
+ console.log('userName='+userName);
+for (var j=0; j<5; j++){
+   if (arr[j]==userName) {
+      alert ('Hello, '+ userName);
+      flag=true;
+      console.log(flag);
+    }
+}  
 
-if (flag==false) alert ('Mistake!');
+if (flag==false)  {
+   	alert('Error! Please, enter other user name!');
+ }   
+  
+    
