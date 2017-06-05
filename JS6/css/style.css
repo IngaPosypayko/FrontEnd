@@ -1,0 +1,29 @@
+body{
+ width: 800px;
+  background-color:rgba(158,158,158,0.24);
+}
+
+.col-sm-12 {
+	width: 700px;
+	margin: 20px 50px;
+	border: 1px solid black;
+	height: 80px;
+	text-align: center;
+	padding: 10px;
+	font-size: 36px;
+}
+
+
+
+.col-sm-6 {
+	width: 300px;
+	margin: 0 50px;
+	text-align: center;
+	/*border: 1px solid black;*/
+	/*height: 50px;*/
+}
+
+.btn{
+	width: 200px;
+	height: 70px;
+}
