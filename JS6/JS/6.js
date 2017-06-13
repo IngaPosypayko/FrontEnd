@@ -27,27 +27,25 @@ function Timer(){
     	// alert('start!');
     	switch (this.flag) {
     	    case 'start':{
+    	    this.timeBeforePause=0;	
     		this.buttonStartField.innerHTML='PAUSE';
     		this.setTime();
-    		// this.intervalID=null;
+    		 clearInterval(this.intervalID);
     		this.intervalID=setInterval(this.updateTime.bind(this),1);
     		this.flag='pause';
             break;
     	    }
         
         	case 'pause':{
-        	this.timeBeforePause=this.updateTime;
-        	console.log(this.intervalID);
+             this.timeBeforePause=Date.now()-this.startTime;
              clearInterval(this.intervalID);
-             console.log(this.intervalID);
     	     this.flag='continue';
     	     this.buttonStartField.innerHTML='CONTINUE';
     	     break;
              }
         	
-        	 case'continue':{
-        	 // var timeBeforePause=this.deltaTime;	
-             this.setTime();
+        	 case'continue':{	
+             this.setTime();  
     		 this.intervalID=setInterval(this.updateTime.bind(this),1);
     	     this.flag='start';
     	     this.buttonStartField.innerHTML='START';
@@ -60,14 +58,13 @@ function Timer(){
     };
 
     this.stop=function(){
-    	// alert('stop!');
     	clearInterval(this.intervalID);
-
+        this.deltaTime=0;
+        this.timerField.innerHTML='0:000';
     	this.flag='start';
     };
 
     this.updateTime=function(){
-    	var timeBeforePause=this.deltaTime;
     	this.deltaTime=new Date(Date.now()-this.startTime+this.timeBeforePause);
     	this.updateHTML();
     };

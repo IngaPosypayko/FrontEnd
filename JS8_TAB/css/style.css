@@ -1,0 +1,39 @@
+/*.ui-menu { width: 50px; }*/
+
+
+.menu-top{
+ /* width: 430px;*/
+  margin: 50px 100px 0 100px;
+  list-style-type: none;
+  background-color: grey;
+ /*border: 1px solid black;*/
+}
+
+.menu-top li{
+  display: inline-block;
+} 
+
+.menu-top a {
+  color: #ffffff;
+  padding: 10px 0;
+  width: 100px;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Arial';
+  display: block;
+  text-align: center;
+ }
+
+#tabs-1,
+#tabs-2,
+#tabs-3 {
+   display: block;
+	margin: 0 100px 0 100px;
+	padding: 10px ;
+	border: 1px solid black;
+
+} 
+
+.link-active{
+	background-color: blue;
+}
