@@ -54,3 +54,11 @@ for(var i=0; i<test.data.questions.length; i++){
 
 }
 
+var element=document.createElement('button');
+element.classList.add('btn');
+element.classList.add('btn-primary');
+element.innerHTML='Проверить мои результаты';
+element.type="button";
+var parentElement=document.querySelector('body');
+parentElement.appendChild(element);
+

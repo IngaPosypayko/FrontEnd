@@ -13,8 +13,10 @@ for (var j=0; j<5; j++){
    if (arr[j]==userName) {
       alert ('Hello, '+ userName);
       flag=true;
-      console.log(flag);
+      // console.log(flag);
     }
+    console.log(flag);
+    if (flag==true) {break};
 }  
 
 if (flag==false)  {

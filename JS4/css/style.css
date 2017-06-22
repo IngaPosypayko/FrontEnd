@@ -1,21 +1,19 @@
 body{
-  width:400px;
-  margin:0 auto;
+  width: 600px;
+  margin-left: 50px;
   background-color:rgba(158,158,158,0.24);
-  text-align: center;
 }
-img{
-  height:200px;
-  margin-bottom: 20px;
-}
-li{
-  margin-left: 0px;
-  text-align: left;
-}
-p{
-  text-align: left;
-  margin-left: 25px;
-}
-h2{
-  text-align: left;
+
+.title {
+ margin-left: 150px; 
+  
+}  
+
+.checkbox{
+  margin-left: 20px;
+  }
+
+.btn{
+ margin: 20px 0 0 150px; 
+ width: 300px;
 }

@@ -1,25 +1,38 @@
  
 function getPow(num, pow){
  var result=1;
-   if (pow==0) {
- 	  return result;}
- else{
+  
     for (var i=1; i<=pow; i++){
      result=result*num;
       }
      console.log('Result='+result);
-     return result;
-  }
+        return result;
+      } 
+         
+
+
+var num = prompt('Please, enter the number');
+    if (isNaN(num)) {
+      while (isNaN(num)) {
+        alert('It must be NUMBER');
+        num = prompt('Please, enter the number');
+      }
+    }   
+
+var pow = prompt('Please, enter the pow');
+      if (isNaN(pow)) {
+      while (isNaN(pow)) {
+        alert('It must be NUMBER');
+        pow = prompt('Please, enter the pow');
+      }
+    }
+
+if (pow >= 0) {
+   var result = getPow(num, pow);
+ }
+else {
+  var result=(1/getPow(num, pow));
 }
-
-var num=prompt('Please, enter the number!');
- alert('Your number is '+ num);
-
-var pow=prompt('Please, enter the pow!');
- alert('Your pow is '+ pow);
-   if (pow <0) {
-   alert('Pow ' + pow + ' less than 0, error' );
-  } else { 
-      var result=getPow(num, pow);
-      alert('Result is '+ result);
-  }
+    
+  
+      alert('result is: '+ result);
