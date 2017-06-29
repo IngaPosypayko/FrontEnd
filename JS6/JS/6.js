@@ -60,7 +60,7 @@ function Timer(){
     this.stop=function(){
     	clearInterval(this.intervalID);
         this.deltaTime=0;
-        this.timerField.innerHTML='0:000';
+        this.timerField.innerHTML='00:00:000';
     	this.flag='start';
     };
 
@@ -69,13 +69,22 @@ function Timer(){
     	this.updateHTML();
     };
 
+
     this.updateHTML=function(){
-    	this.timerField.innerHTML=this.deltaTime.getSeconds()+':'+this.deltaTime.getMilliseconds();
+    	var minutes=this.deltaTime.getMinutes();
+    	var seconds=this.deltaTime.getSeconds();
+    	  if (seconds<10) seconds="0"+seconds;
+    	var milliseconds=this.deltaTime.getMilliseconds();
+    	   if (milliseconds<10) milliseconds="00"+milliseconds;
+    	   else if((milliseconds>9)&&(milliseconds<100)) milliseconds="0"+milliseconds;
+    	this.timerField.innerHTML=minutes+':'+seconds+':'+milliseconds;
     };
 
     this.setTime=function(){
     	this.startTime=Date.now();
     };
+
+
 
 	this.init=function(){	
        this.createEvent();
