@@ -1,0 +1,19 @@
+body{
+  width: 600px;
+  margin-left: 50px;
+  background-color:rgba(158,158,158,0.24);
+}
+
+.title {
+ margin-left: 150px; 
+  
+}  
+
+.checkbox{
+  margin-left: 20px;
+  }
+
+.btn{
+ margin: 20px 0 0 150px; 
+ width: 300px;
+}
