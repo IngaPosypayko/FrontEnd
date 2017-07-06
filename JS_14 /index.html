@@ -10,7 +10,6 @@
 <body>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.3.0/lodash.js"></script>
 
-
 <div id="testWrapper">
 
 </div>
@@ -18,12 +17,25 @@
 
 
 <script type="text/template" id="myTest">
-    <!--<h1 class="title"><%=ТЕСТ ПО МАТЕМАТІКЕ%></h1>-->
-    <% listOfQuestions.forEach(function(item){ %>
-    <div><%=listOfQuestions.answer%></div>
-   <% }); %>
+    <div class="render">
+        <div class="testTitle">
+             <h1 class="header"><%-header%></h1>
+        </div>
+        <div class="testQuestions">
 
+            <% _.forEach (items, function (item){%>
+            <div class="question"><%-item.title%>
 
+                <% _.forEach (item.answers, function (answer){%>
+                    <div class="answer" >
+                         <input class="answ" type="checkbox"/> <%-answer%>
+                    </div>
+
+                <% });%>
+        </div>
+           <% });%>
+        </div>
+    </div>
 </script>
 
 
