@@ -1,0 +1,13 @@
+
+$colour: #000;
+body{
+      background-color: $colour;
+}
+
+ul {
+  li {
+    &:hover {
+      border: 1px solid black;
+    }
+  }
+}

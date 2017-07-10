@@ -47,8 +47,8 @@ function Timer(){
         	 case'continue':{	
              this.setTime();  
     		 this.intervalID=setInterval(this.updateTime.bind(this),1);
-    	     this.flag='start';
-    	     this.buttonStartField.innerHTML='START';
+    	     this.flag='pause';
+    	     this.buttonStartField.innerHTML='PAUSE';
     	      break;
              }
 
@@ -61,7 +61,8 @@ function Timer(){
     	clearInterval(this.intervalID);
         this.deltaTime=0;
         this.timerField.innerHTML='00:00:000';
-    	this.flag='start';
+        this.buttonStartField.innerHTML='START';
+        this.flag='start';
     };
 
     this.updateTime=function(){
