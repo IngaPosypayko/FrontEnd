@@ -7,6 +7,18 @@ label {
   fieldset .help {
     display: inline-block;
   }
-  .ui-tooltip {
-    width: 210px;
-  }
+  /*.ui-tooltip {*/
+    /*width: 210px;*/
+  /*}*/
+
+.span1, .span2, .span3{
+    visibility: hidden;
+}
+
+.over{
+    visibility: visible;
+}
+
+
+
+
