@@ -1,6 +1,6 @@
 
-
-function carousel() {
+(function($){
+jQuery.fn.carousel=function carousel() {
     var leftUIEl = $('.carousel-arrow-left');
     var rightUIEl = $('.carousel-arrow-right');
     var elementsList = $('.carousel-list');
@@ -27,4 +27,4 @@ function carousel() {
 
 }
 
-
+})(jQuery);
