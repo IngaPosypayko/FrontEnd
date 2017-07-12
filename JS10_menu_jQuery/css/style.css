@@ -1,0 +1,65 @@
+
+
+nav {
+    height: 40px;
+    width: 100%;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.main_menu ,
+.sub_menu {
+    padding: 0;
+    margin: 0;
+
+}
+
+.sub_menu {
+    display: none;
+    position: absolute;
+    z-index: 99999;
+
+}
+
+.sub_menu li {
+    list-style: none;
+    width: 150px;
+    height: 40px;
+
+}
+
+
+.main_menu {
+    position: relative;
+}
+
+.main_menu >li {
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+
+}
+
+.main_menu li a ,
+.sub_menu li a
+{
+    width: 150px;
+    height: 40px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+
+}
+
+.main_menu li a:hover ,
+.sub_menu li a:hover {
+    background-color: coral;
+    color: black;
+
+}
