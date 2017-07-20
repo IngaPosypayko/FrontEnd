@@ -1,0 +1,1 @@
+Scrumi project Webpack boilerplate
