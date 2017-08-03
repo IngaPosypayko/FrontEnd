@@ -22,7 +22,7 @@
 
 .header{
 	height: 547px;
-	background: url('../img/bg1.png') no-repeat center top;
+	/*background: url('../img/bg1.png') no-repeat center top;*/
 	border: 1px solid black;
 	text-align: center;	
 }
@@ -54,17 +54,8 @@
 
 .menu-header-320{
   display: none;
-	width:50px;
-	font-size: 24px;
-	font-family: 'Gothic', 'Arial';
-	color:white;
-	margin: 25px auto;
-	border-bottom: 1px solid rgb(237, 191, 255);
 }
 
-.menu-header-320-a{
-  text-decoration: none;
-}
 
 .menu-header-vertical-menu{
   position: relative;
@@ -76,7 +67,7 @@
   border: 1px solid black;
   border-radius: 10px;
   text-align: center;
-  z-index: 2;
+  z-index: 20;
 }
 
 
@@ -106,8 +97,10 @@ border-bottom: 2px solid rgb(237, 191, 255);
 }
 
 .iphone{
+  display: ruby;
   float: right;
-margin: -155px 30px 0 0; 
+margin: -155px 30px 0 0;
+  z-index:50;
 }
 
 .img-iphone{
@@ -189,8 +182,9 @@ margin: -155px 30px 0 0;
 
 .text2{
   width:365px;
+  height: 65px;
   font-size: 16px;
-  font-weight: "100";
+  font-weight: 100;
   color:white;
   margin:2px 0 0 53px;
   padding: 0 10px 0 0;
@@ -200,7 +194,8 @@ margin: -155px 30px 0 0;
 
 .readmore1{
   clear: both;	
-  margin: 17px 0 0 370px;
+  margin: 17px 0 0 365px;
+  width: 70px;
   /*width: 320px;	*/
   font-family: 'Gothic', 'Arial';
   font-size: 18px;
@@ -241,7 +236,7 @@ margin: -155px 30px 0 0;
   display: inline-block;
   font-family: 'Gothic', 'Arial';
   font-size: 28px;
-  margin: 5 0 0 17px;
+  margin: 5px 0 0 17px;
   padding-top: 21px;
 }
 
@@ -260,7 +255,7 @@ margin: -155px 30px 0 0;
 
 .text3{	
   font-size: 16px;
-  font-weight: "100";
+  font-weight: 100;
   color:black;
   margin:13px 0 0 40px;
   width: 350px;
@@ -276,14 +271,14 @@ margin: -155px 30px 0 0;
   height: 382px;
   background: rgb(259, 259, 259);
   border: 1px solid rgba(250, 250, 250, 0.1);
-  border-bottom: 1px solid rba(259, 259, 259);
+  border-bottom: 1px solid rgba(259, 259, 259);
   margin: 0 auto;
 }
 
 .title{
   font-family: 'Gothic', 'Arial';
   font-size: 28px;
-  font-weight: "100";
+  font-weight: 100;
   color:black;
   padding: 0 0 0 22px;
   letter-spacing: 0.7;
@@ -329,7 +324,7 @@ margin: -155px 30px 0 0;
 
 .text4{
   font-size: 16px;
-  font-weight: "100";
+  font-weight: 100;
   color:black;
   margin:2px 0 0 55px;
   padding: 0 10px 0 0;
@@ -437,7 +432,7 @@ margin: -155px 30px 0 0;
   background: rgb(249, 249, 249);
   height: 665px;
   border: 1px solid rgba(250, 250, 250, 0.1);
-  border-bottom: 1px solid rba(259, 259, 259);
+  border-bottom: 1px solid rgba(259, 259, 259);
 }
 
 .layout-new-category{
@@ -473,7 +468,7 @@ margin: 63px 0 0 19px;
 
 .text-new-category{
   font-size: 16px;
-  font-weight: "100";
+  font-weight: 100;
   color:black;
   margin:11px 0 0 0;
   padding: 0 10px 0 0;
